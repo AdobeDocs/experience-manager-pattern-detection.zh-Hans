@@ -2,9 +2,9 @@
 title: 表单
 description: 图案检测器代码帮助页
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 * `modified.feature`:这些功能、资源或API已更新或修改以用于Cloud Service。在迁移到Cloud Service之前，请运行迁移实用程序以使这些功能和资源与Cloud Service兼容。
 * `unavailable.feature`:您的环境具有不可用或从Cloud Service中删除的功能和资产。请勿将此类功能或资产迁移到Cloud Service环境。
-* `unsupported.feature`:您的环境使用某些功能但不支持Cloud Service。请勿将此类功能或资产迁移到Cloud Service环境。 请关注月度发行说明，了解功能的可用性。
-* `unsupported.api`:您的环境有一些API，但该Cloud Service尚不支持。在迁移到Cloud Service之前，请禁用、替换这些API，或从您的代码中删除这些API。 请关注月度发行说明，了解功能的可用性。
+* `unsupported.feature`:您的环境使用某些功能但不支持Cloud Service。请勿将此类功能或资产迁移到Cloud Service环境。 查找月度发行说明，以了解有关功能可用性的信息。
+* `unsupported.api`:您的环境有一些API，但该Cloud Service尚不支持。在迁移到Cloud Service之前，请禁用、替换这些API，或从您的代码中删除这些API。 查找月度发行说明，以了解有关功能可用性的信息。
 
 请参见[可能的含义和风险](#implications-and-risks)和[可能的解决方案](#solutions)部分，了解使某些功能和API与Cloud Service兼容所需的替换和其他操作
 
@@ -75,19 +75,19 @@ ht-degree: 0%
 
 * 在将这些表单移至[!DNL Cloud Service]环境之前，请从现有Adaptive Forms中删除验证步骤。 (VERIFY_STEP)
 
-* 修改现有自适应表单以使用[提交到REST端点](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)、[发送电子邮件](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)、[使用表单数据模型](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)提交和[调用AEM工作流](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交操作。 Forms Portal和Forms Portal提交操作尚不可用。 请关注月度发行说明，了解功能的可用性。 (FORMS._PORTAL_SUBMISSION， FORMS._PORTAL)
+* 修改现有自适应表单以使用[提交到REST端点](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)、[发送电子邮件](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)、[使用表单数据模型](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)提交和[调用AEM工作流](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交操作。 Forms Portal和Forms Portal提交操作尚不可用。 查找月度发行说明，以了解有关功能可用性的信息。 (FORMS._PORTAL_SUBMISSION， FORMS._PORTAL)
 
 * 您可以开发AEM工作流并修改现有的自适应表单以使用[AEM工作流](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交操作将数据发送到AEM工作流，而不是使用&#x200B;**[!UICONTROL 提交到Forms Workflow]**&#x200B;提交操作。 您可以开发自定义提交操作，以将数据、附件或记录文档(DoR)发送到LiveCycle进程，而不是使用[!UICONTROL 提交到Forms Workflow]。 (LC_WORKFLOW_SUBMISSION)
 
-* 要了解交互通信功能的可用性，请关注月度发行说明。 在该功能不可用之前，请勿将您的交互通信、字母和相关词典迁移到Cloud Service环境。 (FP_用户档案_INTERACTIVE_COMMUNICATIONS)
+* 有关Interactive Communications功能可用性的信息，请查找月度发行说明。 在该功能不可用之前，请勿将您的交互通信、字母和相关词典迁移到Cloud Service环境。 (FP_用户档案_INTERACTIVE_COMMUNICATIONS)
 
-* 在将&#x200B;**[!UICONTROL 文件迁移到Cloud Service之前，请禁用Adaptive Forms中的另存为草稿]**&#x200B;和&#x200B;**[!UICONTROL 启用自动保存]**&#x200B;选项。 为Cloud Service发布Forms门户功能后，即可启用这些选项。 请关注月度发行说明，了解功能的可用性。 (DRAFT_AUTO_SAVE，DRAFT_SAVE)
+* 在将&#x200B;**[!UICONTROL 文件迁移到Cloud Service之前，请禁用Adaptive Forms中的另存为草稿]**&#x200B;和&#x200B;**[!UICONTROL 启用自动保存]**&#x200B;选项。 为Cloud Service发布Forms门户功能后，即可启用这些选项。 查找月度发行说明，以了解有关功能可用性的信息。 (DRAFT_AUTO_SAVE，DRAFT_SAVE)
 
 * 无法替换元数据折叠面板。 在将表单迁移到Cloud Service之前，从表单中删除它。(METADATA_ACCORDION_FORM_容器)
 
 * 使用Google reCaptcha，而不是Adobe Experience Manager提供的CAPTCHA服务。 (FORMS._CAPTCHA)
 
-* 自适应Forms优惠响应式设计。 这些表单会根据底层设备更改外观、设计和交互性。 您可以在移动设备上继续使用Adaptive Forms，同时在月度发行说明中关注[!DNL AEM Forms]应用程序的可用性。 (AEM_FORMS._APP)
+* 自适应Forms优惠响应式设计。 这些表单会根据底层设备更改外观、设计和交互性。 您可以继续在移动设备上使用自适应Forms。 有关[!DNL AEM Forms]应用程序可用性的信息，请查看月度发行说明。 (AEM_FORMS._APP)
 
 * 请勿迁移使用文档服务工作流步骤的AEM工作流模型。 此外，请勿迁移或更新将用户数据发送到使用文档服务工作流步骤的工作流模型的自适应Forms，或在迁移表单之前将提交操作更改为[支持的](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)操作。 (WORKFLOW_DOCSERVICES)
 
