@@ -5,7 +5,7 @@ breadcrumb-title: AEM模式检测
 user-guide-description: 了解Adobe Experience Manager图案检测。
 feature-set: Experience Manager
 feature: Developer Tools
-role: 开发人员
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
