@@ -1,20 +1,27 @@
 ---
 title: UMI
 description: 图案检测器代码帮助页
+exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '234'
+ht-degree: 3%
 
 ---
-
 
 # UMI {#umi}
 
 升级配置错误问题
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_overview"
+>title="升级配置错误问题"
+>abstract="UMI标识对某些OSGi配置的修改，这些修改会在升级时导致问题，包括升级失败或功能减少。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显着变化 — AEM作为Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans" text="AEM as a Cloud Service — 发行说明"
 
 `UMI` 标识对某些在升级时会导致问题的OSGi配置的修改，包括失败的升级或降低的功能。
 
@@ -32,6 +39,12 @@ ht-degree: 0%
    * 某些功能可能无法按预期工作。 例如，更改`org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`可能导致某些JSP文件无法编译，这最终会导致功能丢失。
 
 ## 可能的解决方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_guidance"
+>title="实施指南"
+>abstract="最佳实践是检查当前配置并恢复对上述配置所做的任何更改，以避免将来出现任何升级问题。 联系Adobe支持以获得帮助和说明"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
 
 * 请勿更改或删除上述四个配置。
 * 如果配置已更改，则应将其恢复为预期值。 这些值在`UMI`消息中指示。
