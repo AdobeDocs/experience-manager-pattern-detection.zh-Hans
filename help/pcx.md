@@ -1,20 +1,27 @@
 ---
 title: PCX
 description: 图案检测器代码帮助页
+exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 translation-type: tm+mt
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
-
 
 # PCX {#pcx}
 
 页面复杂性
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_overview"
+>title="页面复杂性"
+>abstract="PCX标识结构中包含大量节点的页面。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显着变化 — AEM作为Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans" text="AEM as a Cloud Service — 发行说明"
 
 `PCX` 标识结构中包含大量节点的页面。
 
@@ -28,6 +35,12 @@ ht-degree: 0%
 * 页面中的大量节点可能会影响其呈现性能。
 
 ## 可能的解决方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_guidance"
+>title="实施指南"
+>abstract="最佳实践是检查内容结构以降低页面复杂性，这反过来有助于提高页面渲染性能。 联系Adobe支持以获得帮助和说明"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
 
 * 采取措施减少页面内的节点总数，包括：
    * 确认没有不必要的容器。
