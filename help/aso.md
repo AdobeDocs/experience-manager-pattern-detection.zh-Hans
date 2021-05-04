@@ -1,20 +1,26 @@
 ---
 title: ASO
 description: 图案检测器代码帮助页
+exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 5%
 
 ---
-
 
 # ASO {#aso}
 
 AEM系统概述
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_overview"
+>title="AEM系统概述"
+>abstract="ASO代码标识有关AEM实例的常规信息。 每个查找结果都提供特定类型系统信息的一个值，有助于您进行迁移规划和重构工作。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service — 发行说明"
 
 `ASO` 标识有关AEM实例的常规信息。每个查找都提供特定类型系统信息的一个值。
 
@@ -36,6 +42,12 @@ AEM系统概述
 
 ## 可能的解决方案{#solutions}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_guidance"
+>title="实施指南"
+>abstract="通过ASO代码公开的信息为您的AEM环境提供了一般信息，包括版本、产品附加组件、系统级别信息，应对AEM中作为Cloud Service的任何不受支持的产品或功能进行审查。 联系Adobe支持以获得帮助和说明。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
+
 * 不建议使用不支持的产品或功能进行AEM升级，可能不支持。
-* 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)，了解作为Cloud Service的AEM中的最新更改。
+* 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans)，了解作为Cloud Service的AEM中的最新更改。
 * 请联系我们的[AEM支持团队](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以获得说明或解决问题。
