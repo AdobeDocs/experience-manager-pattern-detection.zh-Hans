@@ -1,20 +1,28 @@
 ---
 title: DG
 description: 图案检测器代码帮助页
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
-
 
 # DG {#dg}
 
 开发人员指南
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_overview"
+>title="开发人员指南"
+>abstract="DG代码将AEM 6.5和AEM作为Cloud Service的选定开发指南的偏差识别出来。 遵循最佳做法可以提高系统的可维护性和性能。 尽管这些偏差中的某些部分在其他应用程序上下文(包括早期版本的AEM)中可能不是问题，但在将AEM用作Cloud Service时，它们可能会导致问题。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM开发 — 准则和最佳实践"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 开发准则"
+
 
 `DG` 确定AEM 6.5和AEM作 [为Cloud Service的选](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) 定 [开发指南的偏差](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html)。遵循最佳做法可以提高系统的可维护性和性能。 尽管这些偏差中的某些部分在其他应用程序上下文(包括早期版本的AEM)中可能不是问题，但在将AEM用作Cloud Service时，它们可能会导致问题。
 
@@ -38,6 +46,13 @@ ht-degree: 0%
    * AEM作为[后台任务和长运行作业的Cloud Service开发准则](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs)建议，作为计划任务执行的代码必须假设它正在运行的实例可以随时关闭。 因此，代码必须具有弹性并且可恢复。
 
 ## 可能的解决方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_guidance"
+>title="实施指南"
+>abstract="遵循AEM开发准则和最佳实践，客户应检查其使用Sling Commons调度程序的实施并将其重新构建到Sling Jobs，重新构建其系统维护任务，审核任何二进制数据的流并重新调整其代码以与AEM作为Cloud Service兼容。"
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 作业"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="AEM中的维护任务作为Cloud Service"
 
 * `java.io.inputstream`
    * 使用直接二进制上载方法，其中将二进制直接添加到数据存储中。
