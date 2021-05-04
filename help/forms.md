@@ -1,20 +1,26 @@
 ---
 title: 表单
 description: 图案检测器代码帮助页
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms。"
+>abstract="Forms。代码确定与从Adobe Experience Manager Forms作为Cloud Service迁移到Adobe Experience Manager Forms相关的潜在问题。 在迁移到Cloud Service之前，审查与这些问题相关的潜在影响和风险。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="可能的影响和风险"
 
 `FORMS` 确定与从迁移到的 [!DNL Adobe Experience Manager Forms] 潜 [!DNL Adobe Experience Manager Form]在问题， [!DNL Cloud Service]在迁移到[!DNL Cloud Service]之前解决这些问题。
 
@@ -62,6 +68,12 @@ ht-degree: 0%
 * [文档](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 服务步骤在AEM工作流中不可用。(WORKFLOW_DOCSERVICES)
 
 ## 可能的解决方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="实施指南"
+>abstract="通过FORMS公开的信息。代码可以提供有关替换和使某些功能和API与Cloud Service兼容所需的其他操作的指导。 联系Adobe支持以获得帮助和说明"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
 
 * 使用迁移实用程序将环境上的所有规则脚本转换为可重用的函数。 您可以将可重用函数与可视规则编辑器一起使用，以继续获取通过规则脚本获得的结果。 (CODE_EDITOR)
 
