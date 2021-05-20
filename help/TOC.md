@@ -2,22 +2,21 @@
 hide: true
 user-guide-title: Experience Manager模式检测指南
 breadcrumb-title: AEM模式检测
-user-guide-description: 了解Adobe Experience Manager图案检测。
+user-guide-description: 了解Adobe Experience Manager模式检测。
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
-translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 8%
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
 
 # Experience Manager模式检测指南{#table-of-contents}
 
-+ [ASO](aso.md)
++ [麻生](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
