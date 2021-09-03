@@ -2,10 +2,10 @@
 title: 麻生
 description: 模式检测器代码帮助页
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -27,13 +27,13 @@ AEM系统概述
 
 * `aem.version`:AEM版本。
 * `aem.product`:检测AEM产品(商务、Forms等)的使用情况。
-* `node.count`:特定类型（页面、资产等）的近似节点计数。
-* `node.store`:节点存储实现类型(SegmentNodeStore、DocumentNodeStore)。
+* `node.count`:特定类型（页面、资产等）的近似节点计数和节点总数。
+* `node.store`:节点存储实现类型(SegmentNodeStore、DocumentNodeStore)及其大小。
 * `data.store`:数据存储实施类型(FileDataStore、S3DataStore、AzureDataStore)。
 * `maintenance.task`:维护任务。
 * `slow.query`:查询速度慢。
 
-## 可能的影响和风险{#implications-and-risks}
+## 可能的影响和风险 {#implications-and-risks}
 
 * AEM版本、节点计数、节点存储和数据存储实施类型仅供参考。
 * 自定义应用程序可能依赖于AEM中没有的产品或功能作为Cloud Service。
