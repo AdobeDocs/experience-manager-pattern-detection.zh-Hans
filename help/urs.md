@@ -2,10 +2,10 @@
 title: URS
 description: 模式检测器代码帮助页
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,9 @@ ht-degree: 0%
 * `node.location`:安装后 `/etc` 已修改的下的节点。
 * `workflow.location`:下的工作流模型或启动 `/etc/workflow`器。
 * `package.structure`:包含可变和不可变内容的包。
+* `node.name.length`:长度不受支持的节点名称。
 
-## 可能的影响和风险{#implications-and-risks}
+## 可能的影响和风险 {#implications-and-risks}
 
 * 依赖于旧路径的自定义代码可能会导致不需要的行为并影响产品功能。
 * 同时包含可变和不可变内容的包在部署期间可能会导致问题。
