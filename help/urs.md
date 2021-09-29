@@ -2,9 +2,9 @@
 title: URS
 description: 模式检测器代码帮助页
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
@@ -16,14 +16,16 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="不支持的存储库结构"
->abstract="URS标识不受支持的存储库结构。 这可显示信息以避免AEM产品代码和客户代码之间的冲突、从/etc重组到存储库中的其他文件夹的内容等。"
+>abstract="URS标识不受支持的存储库结构和节点特征的情况。 这可显示信息以避免AEM产品代码和客户代码之间的冲突、从/etc重组到存储库中的其他文件夹的内容等。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="存储库重组"
 
 ## 背景 {#background}
 
-`URS` 标识不支持的存储库结构的大小写。从AEM 6.4开始，已为存储库内容的重组提供准则。 通过明确定义AEM产品代码和客户代码的层次结构并避免它们之间的冲突，内容将从`/etc`重组到存储库中的其他文件夹，并遵循以下高级规则：
+`URS` 标识不受支持的存储库结构和节点特征的情况。从AEM 6.4开始，已为存储库内容的重组提供准则。 通过明确定义AEM产品代码和客户代码的层次结构并避免它们之间的冲突，内容将从`/etc`重组到存储库中的其他文件夹，并遵循以下高级规则：
 
-* AEM产品代码将始终放置在`/libs`中，且不得被自定义代码覆盖自定义代码自定义代码应放置在`/apps`、`/content`和`/conf`中。
+* AEM产品代码将始终放置在`/libs`中，且不得被自定义代码覆盖。
+* 自定义代码应放置在`/apps`、`/content`和`/conf`中。
+* AEM as aCloud Service不支持长节点名称（>150字节）。
 * 强烈建议遵循这些准则，AEM as a Cloud Service。
 
 子类型用于确定应解决的特定类型的存储库问题：
