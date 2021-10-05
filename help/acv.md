@@ -39,7 +39,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="实施指南"
->abstract="Adobe建议查看内容结构，以防止依赖继承属性的工作流损坏。 请联系客户关怀团队以获取帮助”。
+>abstract="Adobe建议查看内容结构，以防止依赖继承属性的工作流损坏。 请联系客户关怀团队以获取帮助。"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
 
 * 分析文件夹（如果文件夹缺少子节点）。 如果文件夹数量是可管理的，请手动创建节点，否则请使用脚本。
