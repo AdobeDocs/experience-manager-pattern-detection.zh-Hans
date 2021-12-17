@@ -1,27 +1,26 @@
 ---
-title: OCU
+title: 区
 description: 模式检测器代码帮助页
-exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# OCU {#ocu}
+# 区 {#ou}
 
-已弃用：代码使用过时（由OU替换，使用过时）
+过时的使用
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_overview"
->title="代码使用过时"
->abstract="OCU标识某些JCR节点(如Sling或AEM组件或API OSGi导出)以不兼容的方式更改或删除的情况。 客户在升级前可能不知道此更改。 它们可能会升级到不兼容的版本，或根本不可用。"
+>id="aemcloud_bpa_ou_overview"
+>title="过时的使用"
+>abstract="OU会标识某些JCR节点(如Sling或AEM组件或API OSGi导出)以不兼容的方式进行更改或删除的情况。 客户在升级前可能不知道此更改。 它们可能会升级到不兼容的版本，或根本不可用。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显着更改 — AEMas a Cloud Service"
 
-`OCU` 标识某些JCR节点(如Sling或AEM组件或API OSGi导出)以不兼容的方式进行更改或删除的情况。 客户在升级前可能不知道此更改。 它们可能会升级到不兼容的版本，或根本不可用。
+`OU` 标识某些JCR节点(如Sling或AEM组件或API OSGi导出)以不兼容的方式进行更改或删除的情况。 客户在升级前可能不知道此更改。 它们可能会升级到不兼容的版本，或根本不可用。
 
 由于默认情况下未安装旧版本，因此客户应用程序可能无法正常工作。
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 ## 可能的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_guidance"
+>id="aemcloud_bpa_ou_guidance"
 >title="实施指南"
 >abstract="最佳实践是查看并调整客户代码，以使用最新版本的AEM组件或API。 联系Adobe支持以获取帮助和说明。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
