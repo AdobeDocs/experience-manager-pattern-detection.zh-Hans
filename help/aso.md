@@ -2,9 +2,9 @@
 title: 麻生
 description: 模式检测器代码帮助页
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -33,10 +33,14 @@ AEM系统概述
 * `maintenance.task`:维护任务。
 * `slow.query`:查询速度慢。
 * `group.membership`:组中的用户和子组（仅直接/声明的成员）数。
+* `cqtag.count`:CQ标记的资产的数量。
+* `smarttag.count`:智能标记资产的数量。
+* `ccom.version`:核心组件包的版本。
+* `instance.type`:AEM实例类型（创作|发布）。
 
 ## 可能的影响和风险 {#implications-and-risks}
 
-* AEM版本、节点计数、组成员资格、节点存储和数据存储实施类型仅供参考。
+* 提供的AEM版本、节点计数、组成员资格、节点存储、数据存储实施类型、CQ标记计数、智能标记计数、核心组件版本和AEM实例类型仅供参考。
 * 自定义应用程序可能依赖于AEMas a Cloud Service中不可用的产品或功能。
 * 使用不支持的功能进行升级可能会导致升级失败和应用程序无法正常工作。
 
@@ -49,5 +53,5 @@ AEM系统概述
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
 
 * 不建议使用不受支持的产品或功能进行AEM升级，因此可能不受支持。
-* 查看 [发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans) 以了解AEM as a Cloud Service中的最新更改。
+* 查看 [发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) 以了解AEM as a Cloud Service中的最新更改。
 * 请联系我们的 [AEM支持团队](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 澄清或解决问题。
