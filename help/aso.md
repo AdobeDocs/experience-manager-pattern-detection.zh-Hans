@@ -2,9 +2,9 @@
 title: 麻生
 description: 模式检测器代码帮助页
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
+source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ AEM系统概述
 * `smarttag.count`:智能标记资产的数量。
 * `ccom.version`:核心组件包的版本。
 * `instance.type`:AEM实例类型（创作|发布）。
+* `unprocessed.asset.count`:未处理的资产数量。
 
 ## 可能的影响和风险 {#implications-and-risks}
 
