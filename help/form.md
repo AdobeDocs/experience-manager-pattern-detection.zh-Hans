@@ -2,10 +2,10 @@
 title: FORM
 description: Pattern Detector 代码帮助页面
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
+source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1110'
+ht-degree: 97%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 * 默认情况下，CAPTCHA 组件现在使用 Google reCAPTCHA 服务来验证 CAPTCHA。使用 Adobe Experience Manager 验证 CAPTCHA 的选项已弃用。(FORMS_CAPTCHA)
 
-* [文档服务](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology)步骤在 AEM Workflow 中不可用。(WORKFLOW_DOCSERVICES)
-
 * [!DNL AEM Forms] 应用程序不可用于 [!DNL Cloud Services]。(AEM_FORMS_APP)
+
+* [文档服务](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology)步骤在 AEM Workflow 中不可用。(WORKFLOW_DOCSERVICES)
 
 ## 可采用的解决方案 {#solutions}
 
@@ -94,8 +94,8 @@ ht-degree: 0%
 
 * 请勿迁移使用文档服务工作流步骤的 AEM Workflow 模型。此外，对于自适应表单，如果将用户数据发送到使用文档服务工作流的工作流模型，请勿进行迁移或更新，或者在迁移表单之前将提交操作更改为[支持的操作](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)。(WORKFLOW_DOCSERVICES)
 
-* 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM、XDP_BASED_FORM)
-
 * 自适应表单提供了响应式设计。这些表单会根据底层设备更改外观、设计和交互性。您可以在移动设备上继续使用自适应表单。有关 [!DNL AEM Forms] 应用程序可用性的信息，请查看每月发行说明。(AEM_FORMS._APP)
+
+* 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM、XDP_BASED_FORM)
 
 请联系 [Adobe 支持部门](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
