@@ -1,58 +1,58 @@
 ---
-title: 麻生
-description: 模式检测器代码帮助页
+title: ASO
+description: Pattern Detector 代码帮助页面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# 麻生 {#aso}
+# ASO {#aso}
 
-AEM系统概述
+AEM 系统概述
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
->title="AEM系统概述"
->abstract="ASO代码标识有关AEM实例的常规信息。 每个发现结果都提供特定类型系统信息的一个值，可帮助您进行迁移规划和重构工作。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEMas a Cloud Service — 发行说明"
+>title="AEM 系统概述"
+>abstract="ASO 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值，为您的迁移规划和重构工作提供帮助。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 发行说明"
 
-`ASO` 标识有关AEM实例的常规信息。 每个发现结果都提供特定类型系统信息的一个值。
+`ASO` 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值。
 
-子类型用于标识不同类型的信息：
+子类型用于标识信息的不同类型：
 
-* `aem.version`:AEM版本。
-* `aem.product`:检测AEM产品(商务、Forms等)的使用情况。
-* `node.count`:特定类型（页面、资产等）的近似节点计数 和节点总数。
-* `node.store`:节点存储实现类型(SegmentNodeStore、DocumentNodeStore)及其大小。
-* `data.store`:数据存储实施类型(FileDataStore、S3DataStore、AzureDataStore)。
-* `maintenance.task`:维护任务。
-* `slow.query`:查询速度慢。
-* `group.membership`:组中的用户和子组（仅直接/声明的成员）数。
-* `cqtag.count`:CQ标记的资产的数量。
-* `smarttag.count`:智能标记资产的数量。
-* `ccom.version`:核心组件包的版本。
-* `instance.type`:AEM实例类型（创作|发布）。
-* `unprocessed.asset.count`:未处理的资产数量。
+* `aem.version`：AEM 版本。
+* `aem.product`：检测使用的 AEM 产品（Commerce、Forms 等）。
+* `node.count`：特定类型的大约节点计数（Page、Asset 等）和节点总数。
+* `node.store`：节点存储实现类型（SegmentNodeStore、DocumentNodeStore）及其大小。
+* `data.store`：数据存储实现类型（FileDataStore、S3DataStore、AzureDataStore）。
+* `maintenance.task`：维护任务。
+* `slow.query`：查询缓慢。
+* `group.membership`：组中的用户数和子组数（仅限直接成员/声明的成员）。
+* `cqtag.count`：CQ 标记的资源数。
+* `smarttag.count`：智能标记的资源数。
+* `ccom.version`：核心组件软件包的版本。
+* `instance.type`：AEM 实例类型（author|publish）。
+* `unprocessed.asset.count`：未处理的资源数。
 
-## 可能的影响和风险 {#implications-and-risks}
+## 可能的后果和风险 {#implications-and-risks}
 
-* 提供的AEM版本、节点计数、组成员资格、节点存储、数据存储实施类型、CQ标记计数、智能标记计数、核心组件版本和AEM实例类型仅供参考。
-* 自定义应用程序可能依赖于AEMas a Cloud Service中不可用的产品或功能。
-* 使用不支持的功能进行升级可能会导致升级失败和应用程序无法正常工作。
+* 提供了 AEM 版本、节点计数、组成员资格、节点存储、数据存储实现类型、CQ 标记计数、智能标记计数、核心组件版本和 AEM 实例类型，以用于提供信息的目的。
+* 自定义应用程序可能依赖于 AEM as a Cloud Service 中不可用的产品或特性。
+* 升级不支持的功能可能会导致升级失败以及应用程序无法使用。
 
-## 可能的解决方案 {#solutions}
+## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="实施指南"
->abstract="通过ASO代码公开的信息提供了AEM环境的一般信息，包括版本、产品附加组件、系统级别信息，应对AEMas a Cloud Service中任何不支持的产品或功能进行审查。 联系Adobe支持以获取帮助和说明。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
+>abstract="通过 ASO 代码公开的信息向您提供 AEM 环境的一般信息，包括版本、产品加载项、系统级别信息，对于 AEM as a Cloud Service 中任何不支持的产品和功能，需要查看此信息。请联系 Adobe 支持部门获取帮助或说明。"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 不建议使用不受支持的产品或功能进行AEM升级，因此可能不受支持。
-* 查看 [发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) 以了解AEM as a Cloud Service中的最新更改。
-* 请联系我们的 [AEM支持团队](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 澄清或解决问题。
+* 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
+* 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)以了解 AEM as a Cloud Service 中的最新更改。
+* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
