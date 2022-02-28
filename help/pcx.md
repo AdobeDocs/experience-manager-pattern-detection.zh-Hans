@@ -1,11 +1,11 @@
 ---
 title: PCX
-description: 模式检测器代码帮助页
+description: Pattern Detector 代码帮助页面
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -18,33 +18,33 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_overview"
 >title="页面复杂性"
->abstract="PCX标识结构中包含大量节点的页面。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显着更改 — AEM作为Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans" text="AEM as aCloud Service — 发行说明"
+>abstract="PCX 标识其结构中包含大量节点的页面。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显著更改 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 发行说明"
 
-`PCX` 标识结构中包含大量节点的页面。
+`PCX` 标识其结构中包含大量节点的页面。
 
-子类型用于标识不同类型的信息：
+子类型用于标识信息的不同类型：
 
-* `page.complexity.medium`:页面包含的节点数量适中，可能会影响渲染性能。
-* `page.complexity.high`:页面包含的节点数量非常多，可能会影响渲染性能。
+* `page.complexity.medium`：页面包含略高数量的节点，可能会影响渲染性能。
+* `page.complexity.high`：页面包含极高数量的节点，很可能会影响渲染性能。
 
-## 可能的影响和风险{#implications-and-risks}
+## 可能的后果和风险 {#implications-and-risks}
 
-* 页面中的大量节点可能会影响其渲染性能。
+* 页面中的大量节点会影响其渲染性能。
 
-## 可能的解决方案 {#solutions}
+## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="实施指南"
->abstract="最佳做法是查看内容结构以降低页面复杂性，这反过来有助于提高页面渲染性能。 联系Adobe支持以获取帮助和说明"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支持"
+>abstract="最佳实践是审查内容结构，减少页面复杂性，这随之有助于改善页面渲染性能。请联系 Adobe 支持部门获取帮助或说明"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 采取措施减少页面中的节点总数，包括：
-   * 确认没有不必要的容器。
-   * 测试是否可以使用较少的容器实现相同的布局。
+* 采取步骤来减少页面中的节点总数，包括：
+   * 验证没有不必要的容器。
+   * 测试是否可以使用较少的容器实现相同的版面。
    * 简化页面内容。
-   * 减小节点结构的深度。
-   * 为简单起见，请重新构建任何包含的体验片段。
-* 请联系我们的[AEM支持团队](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以获得说明或解决问题。
+   * 减少节点结构的深度。
+   * 重构包含的任何体验片段以进行简化。
+* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
