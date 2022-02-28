@@ -60,7 +60,7 @@ ht-degree: 97%
 
 * [!DNL AEM Forms] 应用程序不可用于 [!DNL Cloud Services]。(AEM_FORMS_APP)
 
-* [文档服务](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology)步骤在 AEM Workflow 中不可用。(WORKFLOW_DOCSERVICES)
+* [文档服务](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=zh-Hans#deployment-topology)步骤在 AEM Workflow 中不可用。(WORKFLOW_DOCSERVICES)
 
 ## 可采用的解决方案 {#solutions}
 
@@ -98,4 +98,4 @@ ht-degree: 97%
 
 * 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM、XDP_BASED_FORM)
 
-请联系 [Adobe 支持部门](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+请联系 [Adobe 支持部门](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
