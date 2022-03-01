@@ -1,12 +1,11 @@
 ---
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
-# 为 Adobe Experience Manager 文档贡献内容
+# 向 Adobe Experience Manager 文档贡献内容
 
 感谢您选择为 Adobe Experience Manager 文档贡献内容！我们由衷欢迎整个读者社区以及 Adobe 员工贡献内容。
 
@@ -59,4 +58,4 @@ ht-degree: 100%
 
 ## 更多信息
 
-有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
