@@ -1,14 +1,13 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
-# Adobe Experience Manager Pattern Detection
+# Adobe Experience Manager 模式检测
 
-这是Adobe Experience Manager模式检测的存储库。
+这是 Adobe Experience Manager 模式检测的存储库。
 
 欢迎您贡献文档内容。请参阅以下资源：
 
