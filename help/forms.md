@@ -3,9 +3,9 @@ title: FORM
 description: Pattern Detector 代码帮助页面
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 * 验证步骤不可用。(VERIFY_STEP)
 
-* **[!UICONTROL 提交到 Forms Workflow]** 提交操作不可用。在AEM 6.5 Forms及更早版本上，“提交操作”用于在JEE工作流和LiveCycle Workflow上将自适应表单数据提交到旧版AEM Forms。 (LC_WORKFLOW_SUBMISSION)
+* **[!UICONTROL 提交到 Forms Workflow]** 提交操作不可用。在 AEM 6.5 Forms 和更低版本中，使用提交操作将自适应表单提交到旧版 AEM Forms on JEE Workflow 和 LiveCycle Workflow。(LC_WORKFLOW_SUBMISSION)
 
 * 交互式通信功能不可用。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 >id="aemcloud_bpa_forms_guidance"
 >title="实施指南"
 >abstract="通过 FORMS 代码公开的信息可提供指南，说明了进行替换以及使这些功能和 API 与 Cloud Service 兼容所需的其他操作。请联系 Adobe 支持部门获取帮助或说明"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用迁移实用程序将环境上的所有规则脚本转换为可重用的函数。您可以将可重用的函数与 Visual 规则编辑器结合使用，以继续获取通过规则脚本获取的结果。(CODE_EDITOR)
 
@@ -90,12 +90,12 @@ ht-degree: 97%
 
 * 元数据折叠没有替换项。在迁移到 Cloud Service 之前，请将其从表单中删除。(METADATA_ACCORDION_FORM_CONTAINER)
 
-* 使用 Google reCaptcha 而非 Adobe Experience Manager 提供的 CAPTCHA 服务。(FORMS._CAPTCHA)
+* 使用 Google reCaptcha 而非 Adobe Experience Manager 提供的 CAPTCHA 服务。(FORMS_CAPTCHA)
 
 * 请勿迁移使用文档服务工作流步骤的 AEM Workflow 模型。此外，对于自适应表单，如果将用户数据发送到使用文档服务工作流的工作流模型，请勿进行迁移或更新，或者在迁移表单之前将提交操作更改为[支持的操作](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)。(WORKFLOW_DOCSERVICES)
 
-* 自适应表单提供了响应式设计。这些表单会根据底层设备更改外观、设计和交互性。您可以在移动设备上继续使用自适应表单。有关 [!DNL AEM Forms] 应用程序可用性的信息，请查看每月发行说明。(AEM_FORMS._APP)
+* 自适应表单提供了响应式设计。这些表单会根据底层设备更改外观、设计和交互性。您可以在移动设备上继续使用自适应表单。有关 [!DNL AEM Forms] 应用程序可用性的信息，请查看每月发行说明。(AEM_FORMS_APP)
 
-* 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM、XDP_BASED_FORM)
+* 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM, XDP_BASED_FORM)
 
 请联系 [Adobe 支持部门](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
