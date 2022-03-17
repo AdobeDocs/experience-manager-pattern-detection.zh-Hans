@@ -2,8 +2,8 @@
 title: OID
 description: Pattern Detector 代码帮助页面
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Oak 索引定义
 
 子类型用于标识信息的不同类型：
 
-* `custom.index.violation`：自定义 Oak 索引与 AEM as a Cloud Service 不兼容。
+* `index.rule.violation`：自定义 Oak 索引与 AEM as a Cloud Service 不兼容。
 * `standard.index.modification`：对标准 Oak 索引的修改。
 
 ## 可能的后果和风险 {#implications-and-risks}
