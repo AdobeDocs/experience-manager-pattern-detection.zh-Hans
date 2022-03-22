@@ -3,13 +3,13 @@ title: ASO
 description: Pattern Detector 代码帮助页面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 麻生 {#aso}
+# ASO {#aso}
 
 AEM 系统概述
 
@@ -38,7 +38,7 @@ AEM 系统概述
 * `ccom.version`：核心组件软件包的版本。
 * `instance.type`：AEM 实例类型（author|publish）。
 * `unprocessed.asset.count`：未处理的资源数。
-* `vanity.url.count`:虚URL的数量。
+* `vanity.url.count`：虚 URL 的数量。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -52,7 +52,7 @@ AEM 系统概述
 >id="aemcloud_bpa_aso_guidance"
 >title="实施指南"
 >abstract="通过 ASO 代码公开的信息向您提供 AEM 环境的一般信息，包括版本、产品加载项、系统级别信息，对于 AEM as a Cloud Service 中任何不支持的产品和功能，需要查看此信息。请联系 Adobe 支持部门获取帮助或说明。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
 * 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)以了解 AEM as a Cloud Service 中的最新更改。
