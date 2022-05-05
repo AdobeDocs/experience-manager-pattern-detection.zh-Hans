@@ -3,9 +3,9 @@ title: DG
 description: Pattern Detector 代码帮助页面
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 * `java.io.inputstream`：在应用程序代码中使用 `java.io.InputStream`。
 * `maintenance.task.configuration`：特定定期维护活动的配置。
 * `sling.commons.scheduler`：为调度的任务使用 Sling Commons Scheduler API。
-* `unsupported.asset.api`:在应用程序代码中使用不支持的Asset Manager API。
+* `unsupported.asset.api`：在应用程序代码中使用不支持的 Asset Manager API。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -46,7 +46,7 @@ ht-degree: 93%
    * [后台任务和长时间运行作业](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs)的 AEM as a Cloud Service 开发准则建议，作为计划任务执行的代码，必须假定运行它的实例可以随时关闭。因此，代码必须具有弹性且可恢复。
 
 * `unsupported.asset.api`
-   * 以下AEM Manager的API在Asset Manager中标记为不支持。
+   * 以下 AssetManager API 在 AEM as a Cloud Service 中被标记为不受支持。
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
@@ -74,5 +74,5 @@ ht-degree: 93%
    * 应尽可能避免长时间运行作业。
 
 * `unsupported.asset.api`
-   * 请使用的不是Asset Manager不支持的API，而是 [aem-upload](https://github.com/adobe/aem-upload).
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+   * 请使用 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
+* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，获取说明或解决问题。
