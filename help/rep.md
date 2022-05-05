@@ -2,9 +2,9 @@
 title: REP
 description: Pattern Detector 代码帮助页面
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 254d530763c2fbddcb8203895662bfe1c7f66483
 workflow-type: ht
-source-wordcount: '426'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="开发准则"
 
 `REP` 标识已启用的复制代理。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。
+
+子类型用于标识信息的不同类型：
+
+* `forward.replication`：标识启用的转发复制代理。
+* `reverse.replication`：标识启用的反向复制代理。
+* `standard.replication.agent.modification`：标识启用的标准复制代理，这些代理已经过修改。
+* `custom.replication.agent.detection`：标识启用的自定义复制代理。
 
 AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) 将内容从作者分发到发布环境。此操作在 AEM 运行时之外完成，使用 Adobe I/O 的管道服务。这在预配的 AEM as a Cloud Service 环境中自动配置。
 
