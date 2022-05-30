@@ -3,9 +3,9 @@ title: UMI
 description: Pattern Detector 代码帮助页面
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 86%
 >id="aemcloud_bpa_umi_guidance"
 >title="实施指南"
 >abstract="最佳实践是审查当前配置，恢复对所述配置进行的更改以避免任何以后的升级问题。请联系 Adobe 支持部门获取帮助或说明"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 请勿更改或移除以上提及的四个配置。
-   * 如果发生以下违规：\
-      “缺少OSGi配置‘xyz-configuration’的必需属性：&#39;[property-1,property-2...]&#39;.&quot;\
-      请确认这些删除是否合法，因为这些OSGi配置是OOTB，可能从未从OSGi配置管理器中修改/保存。
+   * 如果出现下列违规情况：\
+      “缺少 OSGi 配置‘xyz-configuration’的必需属性：‘[属性 1,属性 2...]’。”\
+      由于这些 OSGi 配置是 OOTB，可能从未通过 OSGi 配置过滤器修改/保存，因此请确认这些删除是否合法。
 * 如果配置已更改，它们应恢复到其预期值。这些值在 `UMI` 消息中指明。
 * 对于 `com.day.cq.commons.impl.ExternalizerImpl`，请参阅关于在 AEM as a Cloud Service 中使用 Cloud Manager 环境变量设置外部化器配置的[文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=zh-Hans)。
 * 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
