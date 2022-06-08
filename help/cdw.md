@@ -2,29 +2,29 @@
 title: CDW
 description: Pattern Detector 代码帮助页面
 source-git-commit: 04709ba74eedad903669aae589c605542e1e3b09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # CDW {#cdw}
 
-自定义对话框小组件
+自定义对话框构件
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
->title="自定义对话框小组件"
->abstract="CDW标识了自定义对话框小组件，该小组件应进行更新，以便与AEMas a Cloud Service兼容。"
+>title="自定义对话框构件"
+>abstract="CDW 确定应更新的自定义对话框构件，以使其与 AEM as a Cloud Service 兼容。"
 
-`CDW`  自定义对话框小组件可标识自定义CoralUI和经典对话框小组件。 应更新这些参数，以便与AEMas a Cloud Service兼容。
+`CDW`自定义对话框构件识别自定义 CoralUI 和 Classic 对话框构件。应更新这些构件，以使其与 AEM as a Cloud Service 兼容。
 
-子类型用于标识信息的不同类型，例如：
+子类型用于识别信息的不同类型，例如：
 
-* `custom.coral.widget`:识别基于CoralUI 2或CoralUI 3的自定义对话框小组件。
-* `custom.classic.widget`:识别基于ExtJs的自定义对话框小组件。
+* `custom.coral.widget`：识别基于 CoralUI 2 或 CoralUI 3 的自定义对话框构件。
+* `custom.classic.widget`：识别基于 ExtJ 的自定义对话框构件。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -36,8 +36,8 @@ ht-degree: 44%
 >id="aemcloud_bpa_cdw_guidance"
 >title="实施指南"
 >abstract="联系客户关怀部门寻求帮助。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
+>additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 自定义经典对话框小组件应从ExtJS转换为 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* 应评估自定义Coral对话框小组件，以更新到CoralUI 3。
+* 应将自定义 Classic 对话框构件从 ExtJS 转换为 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html)。
+* 应对自定义 Coral 对话框构件进行评估，以更新为 CoralUI 3。
 * 请联系我们的 [Experience Manager 客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
