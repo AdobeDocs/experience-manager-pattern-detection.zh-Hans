@@ -3,13 +3,13 @@ title: LUI
 description: Pattern Detector 代码帮助页面
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 吕 {#lui}
+# LUI {#lui}
 
 旧版用户界面
 
@@ -62,9 +62,9 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="工具和资源"
->abstract="在 AEM 现代化套件的帮助下，客户可以从经典 (ExtJS) 对话框转为 Coral 对话框。其目的是为了帮助客户从不支持的功能或旧版功能迁移到可靠的现代化 AEM 方案。这些工具是可配置的、可感知配置的和可扩展的。 此外，可以探索使用一组标准化核心组件替换自定义组件，以加快应用程序的开发速度并减少维护成本。"
+>abstract="在 AEM 现代化套件的帮助下，客户可以从经典 (ExtJS) 对话框转为 Coral 对话框。其目的是为了帮助客户从不支持的功能或旧版功能迁移到可靠的现代化 AEM 方案。这些工具可配置、可感知配置且可扩展。此外，可以探索使用一组标准化核心组件替换自定义组件，以加快应用程序的开发速度并减少维护成本。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="组件转换器"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心组件"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans" text="核心组件"
 
 * 利用 [AEM 现代化工具套件](https://opensource.adobe.com/aem-modernize-tools/)减少打造现代化 AEM Sites 实现所需的工作。这些工具包括以下转化：
    * 经典 (ExtJS) 对话框到 Coral 对话框
