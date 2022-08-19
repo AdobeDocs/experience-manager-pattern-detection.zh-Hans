@@ -3,13 +3,13 @@ title: LUI
 description: Pattern Detector 代码帮助页面
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# 吕 {#lui}
+# LUI {#lui}
 
 旧版用户界面
 
@@ -44,8 +44,8 @@ ht-degree: 89%
    * 内容片段模板可在以下位置找到：
       * 现成的内容片段模板存储在 `/libs/settings/dam/cfm/templates` 中
       * 它们可以在 `/apps/settings/dam/cfm/templates` 或 `/conf/.../settings/dam/cfm/templates`（... = global 或 &quot;tenant&quot;）中覆盖
-* `translation.dictionary`:/apps下存在I18n字典。
-   * /apps在运行时不可更改，translator.html在AEM as a cloud service中将不再可用。
+* `translation.dictionary`：/apps 下的 I18n 词典。
+   * /apps 在运行时不可变，而 translator.html 在 AEM as a cloud service 中将不再可用。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -58,7 +58,7 @@ ht-degree: 89%
 * 经典 UI 在 AEM as a Cloud Service 中不再可用。用于创作的标准界面是支持触摸的 UI。
 * 从长期来看，依靠旧版自定义组件会增加维护成本。
 * 在 AEM 6.3 中，内容片段模型取代了内容片段模板。将基于旧模板的内容片段迁移到 AEM as a Cloud Service 后，这些片段仍然可用，但无法基于旧模板创建新的片段。同时也无法使用 AEM GraphQL 提供这些片段，它需要内容片段模型作为架构。
-* /apps在运行时不可更改，translator.html在AEM as a cloud service中将不再可用。 因此，I18n字典需要通过CI/CD管道从Git获取。
+* /apps 在运行时不可变，而 translator.html 在 AEM as a cloud service 中将不再可用。因此 I18n 词典需要通过 CI/CD 管道取自 Git。
 
 ## 可采用的解决方案 {#solutions}
 
@@ -67,7 +67,7 @@ ht-degree: 89%
 >title="工具和资源"
 >abstract="在 AEM 现代化套件的帮助下，客户可以从经典 (ExtJS) 对话框转为 Coral 对话框。其目的是为了帮助客户从不支持的功能或旧版功能迁移到可靠的现代化 AEM 方案。这些工具可配置、可感知配置且可扩展。此外，可以探索使用一组标准化核心组件替换自定义组件，以加快应用程序的开发速度并减少维护成本。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="组件转换器"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心组件"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans" text="核心组件"
 
 * 利用 [AEM 现代化工具套件](https://opensource.adobe.com/aem-modernize-tools/)减少打造现代化 AEM Sites 实现所需的工作。这些工具包括以下转化：
    * 经典 (ExtJS) 对话框到 Coral 对话框
@@ -76,5 +76,5 @@ ht-degree: 89%
    * 设计和设计对话框到可编辑模板策略
 * 审查项目的自定义组件库，如果可能，请转换为一组标准化[核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans)，以加快应用程序的开发速度并减少维护成本。
 * 推荐使用与旧模板等同的功能创建内容片段模型，并在以后使用这些模型创建内容片段。有关详细信息，请参阅[内容片段模型](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=zh-Hans)。
-* I18n字典需要通过CI/CD管道从Git获取。 [文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，获取说明或解决问题。
+* I18n 词典需要通过 CI/CD 管道取自 Git。[文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=zh-Hans#apps-libs-immutable)
+* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
