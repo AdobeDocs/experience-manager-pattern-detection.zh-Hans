@@ -2,10 +2,10 @@
 title: DG
 description: Pattern Detector 代码帮助页面
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * `maintenance.task.configuration`：特定定期维护活动的配置。
 * `sling.commons.scheduler`：为调度的任务使用 Sling Commons Scheduler API。
 * `unsupported.asset.api`：在应用程序代码中使用不支持的 Asset Manager API。
+* `javax.jcr.observation.EventListener`：在应用程序代码中使用事件侦听器。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -51,6 +52,10 @@ ht-degree: 100%
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * 由于无法保证执行，依赖于事件侦听器的应用程序可能无法按预期工作。
+
 
 ## 可采用的解决方案 {#solutions}
 
@@ -75,4 +80,7 @@ ht-degree: 100%
 
 * `unsupported.asset.api`
    * 请使用 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)，获取说明或解决问题。
+
+* `javax.jcr.observation.EventListener`
+   * 建议不要使用事件侦听器，而是将事件处理机制重构为 [Sling作业](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 因为它提供了处理保证。
+* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)以获得澄清或解决关切。
