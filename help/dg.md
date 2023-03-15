@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 92%
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 由于无法保证执行，依赖于事件侦听器的应用程序可能无法按预期工作。
+   * 依赖于事件侦听器的应用程序可能无法按预期工作，因为无法保证执行。
 
 
 ## 可采用的解决方案 {#solutions}
@@ -82,5 +82,5 @@ ht-degree: 92%
    * 请使用 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
 
 * `javax.jcr.observation.EventListener`
-   * 建议不要使用事件侦听器，而是将事件处理机制重构为 [Sling作业](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 因为它提供了处理保证。
+   * 建议将事件处理机制重构为 [Sling 任务](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，而不是使用事件监听器，因为这些任务可以保证进行处理。
 * 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)以获得澄清或解决关切。
