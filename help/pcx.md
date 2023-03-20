@@ -3,7 +3,7 @@ title: PCX
 description: Pattern Detector 代码帮助页面
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="页面复杂性"
 >abstract="PCX 标识其结构中包含大量节点的页面。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显著更改 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=zh-Hans" text="AEM as a Cloud Service - 发行说明"
 
 `PCX` 标识其结构中包含大量节点的页面。
 
