@@ -3,9 +3,9 @@ title: ASO
 description: Pattern Detector 代码帮助页面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ AEM 系统概述
 * `unprocessed.asset.count`：未处理的资源数。
 * `vanity.url.count`：虚 URL 的数量。
 * `index.size`：可迁移的 Lucene 索引总大小。
-* `workflow.count`:处于运行和失效状态的创作工作流数。
+* `workflow.count`：处于正在运行和过时状态的创作工作流的数量。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -48,7 +48,7 @@ AEM 系统概述
 * 数量较多的虚名 URL（超过 1000）会延长查询时间，从而增加 Dispatcher 和 Publish 服务器的负载。
 * 自定义应用程序可能依赖于 AEM as a Cloud Service 中不可用的产品或特性。
 * 升级不支持的功能可能会导致升级失败以及应用程序无法使用。
-* 处于运行或失效状态的大量创作工作流可能会降低性能。
+* 大量处于正在运行或过时状态的创作工作流程可能会降低性能。
 
 ## 可采用的解决方案 {#solutions}
 
