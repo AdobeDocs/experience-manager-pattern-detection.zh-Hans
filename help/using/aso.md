@@ -2,10 +2,10 @@
 title: ASO
 description: Pattern Detector 代码帮助页面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 95%
+source-wordcount: '498'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ AEM 系统概述
 * `vanity.url.count`：虚 URL 的数量。
 * `index.size`：可迁移的 Lucene 索引总大小。
 * `workflow.count`：处于正在运行和过时状态的创作工作流的数量。
+* `jvm.arguments`：启动AEM时添加到命令行的JVM参数。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
