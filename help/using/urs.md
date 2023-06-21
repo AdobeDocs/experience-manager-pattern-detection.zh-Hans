@@ -2,9 +2,9 @@
 title: URS
 description: Pattern Detector 代码帮助页面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 100%
 * `node.location`：位于 `/etc` 下自安装以来经过修改的节点。
 * `workflow.location`：位于 `/etc/workflow` 下的工作流模型或启动器。
 * `package.structure`：包含可变和不可变内容的软件包。
-* `node.name.length`：不支持节点名称的长度。
 * `node.size`：不支持节点的大小。
 
 ## 可能的后果和风险 {#implications-and-risks}
