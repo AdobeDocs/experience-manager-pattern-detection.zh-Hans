@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ AEM 系统概述
 * 自定义应用程序可能依赖于 AEM as a Cloud Service 中不可用的产品或特性。
 * 升级不支持的功能可能会导致升级失败以及应用程序无法使用。
 * 大量处于正在运行或过时状态的创作工作流程可能会降低性能。
-* 查询速度缓慢可能会降低系统的性能。
+* 查询速度慢可能会降低系统的性能。
 
 ## 可采用的解决方案 {#solutions}
 
@@ -63,6 +63,6 @@ AEM 系统概述
 * 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
 * 必须对未处理资源进行处理，且将资源的 jcr:content 节点的 dam:assetState 属性设置为“已处理”，或者将这些资源从迁移集中移除，然后才能迁移到 AEMaaCS。
 * 可使用 Apache Rewrite 替换虚名 URL。
-* 请参阅 [文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) 用于排查查询速度缓慢的问题。
+* 要解决查询速度慢的问题，请参阅[文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html)。
 * 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)以了解 AEM as a Cloud Service 中的最新更改。
 * 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
