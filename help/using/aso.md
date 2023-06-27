@@ -3,9 +3,9 @@ title: ASO
 description: Pattern Detector 代码帮助页面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ AEM 系统概述
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 系统概述"
 >abstract="ASO 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值，为您的迁移规划和重构工作提供帮助。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 发行说明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans" text="AEM as a Cloud Service - 发行说明"
 
 `ASO` 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值。
 
@@ -41,7 +41,7 @@ AEM 系统概述
 * `vanity.url.count`：虚 URL 的数量。
 * `index.size`：可迁移的 Lucene 索引总大小。
 * `workflow.count`：处于正在运行和过时状态的创作工作流的数量。
-* `jvm.arguments`：启动AEM时添加到命令行的JVM参数。
+* `jvm.arguments`：启动 AEM 时添加到命令行的 JVM 参数。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -63,6 +63,6 @@ AEM 系统概述
 * 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
 * 必须对未处理资源进行处理，且将资源的 jcr:content 节点的 dam:assetState 属性设置为“已处理”，或者将这些资源从迁移集中移除，然后才能迁移到 AEMaaCS。
 * 可使用 Apache Rewrite 替换虚名 URL。
-* 要解决查询速度慢的问题，请参阅[文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html)。
-* 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)以了解 AEM as a Cloud Service 中的最新更改。
+* 要解决查询速度慢的问题，请参阅[文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=zh-Hans)。
+* 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans)以了解 AEM as a Cloud Service 中的最新更改。
 * 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
