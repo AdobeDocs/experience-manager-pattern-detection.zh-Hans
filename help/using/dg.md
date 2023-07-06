@@ -2,10 +2,10 @@
 title: DG
 description: Pattern Detector 代码帮助页面
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
 * `sling.commons.scheduler`：为调度的任务使用 Sling Commons Scheduler API。
 * `unsupported.asset.api`：在应用程序代码中使用不支持的 Asset Manager API。
 * `javax.jcr.observation.EventListener`：在应用程序代码中使用事件侦听器。
+* `custom.guava.cache`：在应用程序代码中使用Guava缓存。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -55,6 +56,9 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 依赖于事件侦听器的应用程序可能无法按预期工作，因为无法保证执行。
+
+* `custom.guava.cache`
+   * 使用Guava缓存可能会导致AEM出现性能问题。
 
 
 ## 可采用的解决方案 {#solutions}
@@ -83,4 +87,7 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 建议将事件处理机制重构为 [Sling 任务](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，而不是使用事件监听器，因为这些任务可以保证进行处理。
+
+* `custom.guava.cache`
+   * 如果需要，应在AEM外部创建缓存。 可以考虑使用外部缓存解决方案。
 * 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)以获得澄清或解决关切。
