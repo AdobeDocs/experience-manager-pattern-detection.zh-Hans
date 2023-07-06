@@ -2,9 +2,9 @@
 title: URS
 description: Pattern Detector 代码帮助页面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 
 * AEM 产品代码始终放在 `/libs` 中，这必须使用自定义代码覆盖。
 * 自定义代码应放在 `/apps`、`/content` 和 `/conf` 中。
-* AEM as a Cloud Service 不支持长节点名称（大于 150 字节）。
 * 强烈建议遵循 AEM as a Cloud Service 的这些准则。
 
 子类型用于标识应该解决的特定类型的存储库问题：
