@@ -2,10 +2,10 @@
 title: ACV
 description: Pattern Detector 代码帮助页面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Assets Content Validator
 * `metadata.descendants.violation`：标识存储库中资源元数据节点下具有 100 个以上后代的资源。
 * `conflict.node`：标识 /content/dam/ 路径下的存储库中存在发生冲突的节点。
 * `psb.file.large`：识别大小大于 2 GB 的大型 PSB 文件 (dc:format : application/vnd.3gpp.pic-bw-small)。
+* `invalid.asset.name`：标识包含无效字符的资产[* / ： [\] | # % { } ？ 在名称中键入&amp;]。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Assets Content Validator
 * 元数据节点下面的后代数量较多可能会降低包含违规资源的文件夹的加载速度。
 * 存在发生冲突的节点可能导致在 AEM as a Cloud Service 上摄取失败。
 * Experience Manager 可能无法处理分辨率非常高的 PSB 文件。如果未对 Experience Manager 服务器进行适当的基准测试，使用 ImageMagick 处理大型文件的客户可能会遇到性能问题。
+* 迁移到AEMas a Cloud Service时，资源名称中的无效字符可能会导致失败。
 
 ## 可采用的解决方案 {#solutions}
 
