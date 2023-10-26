@@ -3,8 +3,8 @@ title: URS
 description: Pattern Detector 代码帮助页面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---

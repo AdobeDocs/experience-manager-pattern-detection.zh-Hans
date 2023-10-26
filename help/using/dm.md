@@ -20,7 +20,7 @@ Dynamic Media
 >title="Dynamic Media"
 >abstract="DM 代码标识在您当前实现中 AEM Assets Dynamic Media 的使用。Dynamic Media 模式由运行模式检测。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM 开发 - 准则和最佳实践"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 开发准则"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hans" text="AEM as a Cloud Service 开发准则"
 
 `DM` 标识使用 AEM Assets Dynamic Media。Dynamic Media 模式由运行模式检测。
 
