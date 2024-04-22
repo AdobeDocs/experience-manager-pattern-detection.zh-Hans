@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '530'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 # 向 Adobe Experience Manager 文档贡献内容
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ## Adobe 开源项目行为准则
 
-本项目采用 [Adobe 开源项目行为准则](code-of-conduct.md)。如果选择为 AEM 文档贡献内容，即表明您同意遵守本行为准则。请将不可接受的行为报告给 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)。
+本项目采用 [Adobe 开源项目行为准则](code-of-conduct.md)。如果选择为 AEM 文档贡献内容，即表明您同意遵守本行为准则。向报告不可接受的行为 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## 内容贡献准则
 
-为完善 AEM 文档，我们欢迎任何人贡献内容，但是我们要求贡献的内容尽可能遵守特定的准则和标准。有关更多信息，请参阅 [AEM 文档内容贡献准则](guidelines.md)。
+为完善 AEM 文档，我们欢迎任何人贡献内容，但是我们要求贡献的内容尽可能遵守特定的准则和标准。查看 [AEM文档内容贡献准则](guidelines.md) 以了解更多信息。
 
 ## 如何贡献内容
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ### 创建问题 {#create-an-issue}
 
-对于当前的文档或者内容陈述方式，您是否有任何建议、发现或疑问？如果有，请创建问题。如果您想贡献内容，但却不喜欢编辑文档或创建拉取请求，则创建问题也是很不错的选择。
+对于当前的文档或者内容陈述方式，您是否有任何建议、发现或疑问？然后创建一个问题。 如果您想贡献内容，但却不喜欢编辑文档或创建拉取请求，则创建问题也是很不错的选择。
 
 通过创建问题，您可以轻松描述自己关于如何改进文档的想法，以供 AEM 文档团队成员查阅。只需单击任意页面右侧导航面板顶部的&#x200B;**记录问题**&#x200B;链接，即可创建问题。
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 ### 来自 Adobe 员工的内容贡献
 
-如果您是 Adobe 员工并且有内容要贡献，请使用公司 git 中的 `AdobeDocs` 组织。
+如果您是Adobe员工并且有投稿，请使用 `AdobeDocs` 企业git中的组织。
 
-我们很乐意收到任何内容贡献，如果您是通过公共存储库贡献内容的，我们将审查您贡献的内容，不过，由 Adobe 员工创建的拉取请求更易于处理，并且可以在公司存储库中更快地获得批准。请确保仅在公司存储库中讨论任何专有信息。
+我们很乐意收到任何内容贡献，如果您是通过公共存储库贡献内容的，我们将审查您贡献的内容，不过，由 Adobe 员工创建的拉取请求更易于处理，并且可以在公司存储库中更快地获得批准。确保仅在公司存储库中讨论任何专有信息。
 
 ## 更多信息
 

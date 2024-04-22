@@ -1,11 +1,11 @@
 ---
 title: CDW
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 87%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 应将自定义 Classic 对话框构件从 ExtJS 转换为 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html)。
-* 如有疑问需澄清或要提出关切，请联系我们的 [Experience Manager 客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+* 联系 [Experience Manager客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

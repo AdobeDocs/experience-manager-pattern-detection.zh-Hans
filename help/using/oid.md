@@ -1,11 +1,11 @@
 ---
 title: OID
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 95%
 
 ---
 
@@ -54,5 +54,5 @@ Oak 索引定义
 * 遵循 AEM as a Cloud Service [打包准则](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)以部署新的或自定义的 Oak 索引定义。
 * 自定义 AEM 标准索引和新的自定义 Oak 索引定义应该遵循 AEM as Cloud Service 的[内容索引指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#preparing-the-new-index-definition)。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid)项目，了解如何更正 [OID 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid)，使其与 AEM as a Cloud Service 兼容。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
 * 利用[索引转换器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools)，将现有自定义 Oak 索引定义迁移到与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。

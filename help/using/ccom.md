@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 92%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * 在[核心组件简介](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans)可找到有关核心组件的更多信息。
 * 在[使用样式系统](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=zh-Hans#page-authoring)中可查找有关样式系统的更多信息。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

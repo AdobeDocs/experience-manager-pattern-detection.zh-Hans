@@ -1,11 +1,11 @@
 ---
 title: CCL
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 88%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 >abstract="应对 CCL 所标识的添加到 AEM 的客户端库进行审查，确保没有重复并且使用了最新版本。请联系 Adobe 支持部门获取帮助或说明"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

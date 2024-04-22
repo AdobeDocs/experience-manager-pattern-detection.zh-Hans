@@ -1,11 +1,11 @@
 ---
 title: NBCC
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '204'
+ht-degree: 91%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 100%
 
 * 仅叠加或引用向后兼容的 Sling 组件。
 * 考虑在 AEM 升级后调整来自 `/libs` 或捆绑包的资源。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

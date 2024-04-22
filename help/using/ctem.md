@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 93%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 100%
 
 * 利用 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/)将静态模板迁移到可编辑模板。
 * 在[模板](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)中可查找有关可编辑模板的更多信息。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

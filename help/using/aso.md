@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,6 @@ AEM 系统概述
 * 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
 * 必须对未处理资源进行处理，且将资源的 jcr:content 节点的 dam:assetState 属性设置为“已处理”，或者将这些资源从迁移集中移除，然后才能迁移到 AEMaaCS。
 * 可使用 Apache Rewrite 替换虚名 URL。
-* 要解决查询速度慢的问题，请参阅[文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=zh-Hans)。
+* 请参阅 [文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=zh-Hans) 用于解决查询速度较慢的问题。
 * 查看[发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hans)以了解 AEM as a Cloud Service 中的最新更改。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

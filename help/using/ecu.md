@@ -1,11 +1,11 @@
 ---
 title: ECU
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 49%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 ## 背景 {#background}
 
-`ECU` 标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。
+ECU识别以违反内容分类规则的方式使用不同内容区域的模式。
 
-Sling 请求处理定义如何使用资源的内容（具体而言是其 `sling:resourceType` 属性）确定将用于呈现内容的脚本。（有关更多信息，请参阅[定位脚本](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html#locating-the-script)。）Sling 还提供了通过“叠加”和“覆盖”来访问及合并资源的技术。这些内容在 [Sling 资源合并器](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html)和[叠加](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html)中介绍。
+Sling请求处理定义资源的内容、其 `sling:resourceType` 属性用于确定用于呈现内容的脚本。 （有关更多信息，请参阅[定位脚本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。）Sling 还提供了通过“叠加”和“覆盖”来访问及合并资源的技术。这些内容在 [Sling 资源合并器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[叠加](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)中介绍。
 
-为了让客户更快速更安全地理解 `/libs` 的哪些领域可以安全使用和叠加，`/libs` 中的内容使用“mixin”属性进行分类：Public、Abstract、Final 和 Internal。每个分类都暗示了有关如何使用、继承或覆盖内容的规则。有关详细说明，请参阅[可持续升级](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html)。
+使客户更安全、更轻松地了解 `/libs` 可以安全使用并覆盖中的内容 `/libs` 已使用“mixin”属性进行分类：Public、Abstract、Final和Internal。 每个分类都暗示了有关如何使用、继承或覆盖内容的规则。有关详细说明，请参阅[可持续升级](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)。
 
 ## 可能的后果和风险 {#implications-and-risks}
 
@@ -30,5 +30,5 @@ Sling 请求处理定义如何使用资源的内容（具体而言是其 `sling:
 
 * 尽可能减少内容叠加的使用，仅限那些需要的用例。
 * 特别是，避免叠加限制的内容（Final 和 Internal 分类）。
-* 在 AEM 升级、ServicePack 或 CumulativeFixPack 安装后，请考虑采用来自 `/libs` 的更改。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 考虑调整来自的更改 `/libs` 安装AEM升级、Service Pack或累积修订包后。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

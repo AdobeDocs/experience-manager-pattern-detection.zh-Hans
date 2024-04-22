@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="配置不当问题"
 >abstract="MI 可识别 AEM 实例上的配置问题"
 
-`MI`“配置不当问题”可识别 AEM 实例上的配置问题。
+MI配置错误问题标识了AEM实例上的配置问题。
 
 子类型用于识别不同类型的信息，如：
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * `sling.job.max.parallel`
-   * 建议将该值设置为 0.5，以便利用一半的可用处理器。
+   * Adobe建议将该值设置为0.5以充分利用一半的可用处理器。
 * `missing.maintenance.configuration`
-   * 修订版清理：请参阅[修订版清理](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html)。以下是关于配置的重要部分：[修订版清理 - 配置尾部压缩和完全压缩](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction)。
-   * Lucene 二进制文件清理：请参考[操作功能板 - Lucene 二进制文件清理](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup)。
-   * 数据存储垃圾收集：请参考[数据存储垃圾收集](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)。
-   * 工作流清除：请参阅[定期清除工作流实例](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances)。
-   * 审核日志维护任务：请参阅[审核日志维护](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html)。
-* 如有疑问需澄清或要提出关切，请联系我们的 [Experience Manager 客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+   * 修订版清理：请参阅 [修订清理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). 以下是关于配置的重要部分：[修订版清理 - 配置尾部压缩和完全压缩](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。
+   * Lucene二进制文件清理：请参阅 [操作功能板 — Lucene二进制文件清理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * 数据存储垃圾收集：请参阅 [数据存储垃圾收集](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * 工作流清除：请参阅 [定期清除工作流实例](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * AuditLog维护任务：请参阅 [审核日志维护](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* 联系 [Experience Manager客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

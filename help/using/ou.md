@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 100%
 
 * 短期：安装兼容性包可能会有帮助。
 * 长期：调整客户的代码，使用 AEM 组件或 API 的最新版本。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

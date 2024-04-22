@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +59,4 @@ ht-degree: 100%
 * 请查看如何在项目中为 AEM as a Cloud Service [嵌入第三方软件包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages)。
 * 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html)和[打包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html)准则。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)项目，了解如何更正 [INST 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其与 AEM as a Cloud Service 兼容。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

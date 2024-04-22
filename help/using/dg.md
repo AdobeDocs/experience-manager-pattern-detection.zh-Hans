@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 * `java.io.inputstream`
    * 使用直接二进制上传方法，这种方法直接将二进制数据添加到数据存储。
-   * 对于资源用例，请使用 [aem-upload](https://github.com/adobe/aem-upload)。对于其他类型的二进制数据，可以在此相同的模式之后对自定义上传逻辑建模。
+   * 有关资源用例，请参阅 [aem-upload](https://github.com/adobe/aem-upload). 对于其他类型的二进制数据，可以在此相同的模式之后对自定义上传逻辑建模。
 
 * `maintenance.task.configuration`
    * 审查 AEM as a Cloud Service [维护任务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=zh-Hans)文档。
@@ -83,11 +83,11 @@ ht-degree: 100%
    * 应尽可能避免长时间运行作业。
 
 * `unsupported.asset.api`
-   * 请使用 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
+   * 不要使用不支持的Asset Manager API，请参阅 [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * 建议将事件处理机制重构为 [Sling 任务](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，而不是使用事件监听器，因为这些任务可以保证进行处理。
 
 * `custom.guava.cache`
    * 如果需要，应在 AEM 外部创建缓存。可以考虑外部缓存解决方案。
-* 如有疑问需澄清或要提出关切，请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

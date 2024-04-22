@@ -1,11 +1,11 @@
 ---
 title: URS
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM 项目结构准则"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 请参考[存储库重构](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html)以获取为 AEM as a Cloud Service 做好准备的指南。
-* 另请参考 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)以详细了解存储库的可变和不可变领域。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 请参阅 [存储库重组](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) 以获取为AEMas a Cloud Service做好准备的指导。
+* 另请参阅 [AEM项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 了解有关存储库的可变和不可变区域的更多信息。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
 * 利用[存储库现代化器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools)，通过将内容和代码分隔到单独的软件包来重构现有项目软件包，使其与为 Adobe Experience Manager as a Cloud Service 定义的项目结构兼容。

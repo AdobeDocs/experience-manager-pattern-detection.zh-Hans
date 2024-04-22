@@ -1,11 +1,11 @@
 ---
 title: REP
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -52,4 +52,4 @@ AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.
 * 请参阅 AEM as a Cloud Service [开发准则](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents)和发行说明中的[复制代理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents)。
 * 审查、重构和优化直接依赖于复制代理执行业务任务的功能。
 * 请参阅 AEM as a Cloud Service 中的部署对[复制](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication)有何影响。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

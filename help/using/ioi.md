@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Pattern Detector 代码帮助页面
+description: Pattern Detector代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '222'
+ht-degree: 92%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 100%
 
 * 使用 Sling 资源 API（或 JCR API）而不是低级访问。
 * 避免依赖不属于任何公开 API 或 SPI 的内部软件包。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
