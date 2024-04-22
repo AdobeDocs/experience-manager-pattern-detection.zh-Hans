@@ -1,11 +1,11 @@
 ---
 title: LOCP
-description: Pattern Detector 代码帮助页面
+description: 模式检测器代码帮助页面……
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 61%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs 覆盖自定义软件包"
 >abstract="LOCP 标识检测到向 /libs 提供内容的自定义软件包，这是一种反模式（除了在 ACL 的情况下）。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="可持续升级"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Sling 资源管理器"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
 
-`LOCP` 标识检测到向 `/libs` 提供内容的自定义软件包，这是一种反模式（除了在 ACL 的情况下）。
+LOCP标识检测到向提供内容的自定义软件包 `/libs`，这是一种反模式（除了在ACL的情况下）。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
-* 对于任何 CFP、SP 或主要版本的 AEM 升级，可能会删除或替换客户代码。
-* 在某些情况下，可能无法正确安装新内容。
+* 对于任何CFP、SP或主要AEM升级，可能会删除或替换客户代码。
+* 有时新内容可能无法正确安装。
 
 ## 可采用的解决方案 {#solutions}
 
@@ -35,8 +35,8 @@ ht-degree: 100%
 >id="aemcloud_bpa_locp_guidance"
 >title="实施指南"
 >abstract="客户应该审查其自定义代码和软件包，标识是否向 /libs 提供内容，并重构它们来依靠叠加 /apps 下的内容，使其与 AEM as a Cloud Service 兼容。请联系 Adobe 支持部门获取帮助或说明"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="叠加"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="叠加"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 客户软件包应部署内容到 `/apps` 而不是 `/libs`。
-* 请联系我们的 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)获取说明或解决问题。
+* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 如果您需要澄清或解决问题，请执行以下操作：
