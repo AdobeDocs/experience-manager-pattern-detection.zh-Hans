@@ -2,10 +2,10 @@
 title: FORM
 description: Pattern Detector代码帮助页面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="实施指南"
->abstract="通过 FORMS 代码公开的信息可提供指南，说明了进行替换以及使这些功能和 API 与 Cloud Service 兼容所需的其他操作。请联系 Adobe 支持部门获取帮助或说明"
+>abstract="通过 FORMS 代码公开的信息可提供指南，说明了进行替换以及使这些功能和 API 与 Cloud Service 兼容所需的其他操作。请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用迁移实用程序将环境上的所有规则脚本转换为可重用的函数。您可以将可重用的函数与 Visual 规则编辑器结合使用，以继续获取通过规则脚本获取的结果。(CODE_EDITOR)

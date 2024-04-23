@@ -2,10 +2,10 @@
 title: INST
 description: Pattern Detector代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 96%
+source-wordcount: '447'
+ht-degree: 76%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 96%
 >id="aemcloud_bpa_inst_overview"
 >title="已安装构件"
 >abstract="INST 标识已由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些内容是为了帮助描述系统的状态和升级工作的一般范围。任何第三方软件包都必须遵守 AEM as a Cloud Service 开发和打包准则。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="开发准则 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="打包准则 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="开发准则 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="打包准则 - AEM as a Cloud Service"
 
-`INST` 标识已由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些内容是为了帮助描述系统的状态和升级工作的一般范围。
+INST 标识已由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些内容是为了帮助描述系统的状态和升级工作的一般范围。
 
 在安装了某个软件包的多个版本时，只报告最新的版本。
 
@@ -38,8 +38,8 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="实施指南"
->abstract="客户无法再使用 CRX 包管理器安装第三方软件包。客户应该审查这些已安装的构件，并需要对其进行结构调整和优化以用于 AEM as a Cloud Service。对于任何第三方软件包，应该与其创作者或者 Adobe 进行验证以确定与 AEM as a Cloud Service 的兼容性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="在容器软件包中嵌入子软件包"
+>abstract="客户无法再使用CRX包管理器安装第三方包。 客户应审查这些必须构造的已安装工件，并优化它们以用于AEMas a Cloud Service。 验证任何第三方软件包与其创建者或Adobe的兼容性，确保与AEMas a Cloud Service兼容。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="在容器包中嵌入子包"
 
 
 * 在 AEM as a Cloud Service 中，无法使用 CRX 包管理器安装第三方软件包。
@@ -51,12 +51,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。此外，查看 Github 上的 INST 违规示例以了解如何在 AEM as a Cloud Service 中更正和部署它。"
+>abstract="审查 WKND 旧版项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。此外，查看GitHub上的INST违规示例以了解如何在AEMas a Cloud Service中更正和部署它。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND 旧版项目"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 违规示例 - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST违规示例 — GitHub"
 
-* 第三方软件包应该作为项目的一部分，使用 Cloud Manager [部署流程](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html#deployment-process)部署到 AEM。
-* 请查看如何在项目中为 AEM as a Cloud Service [嵌入第三方软件包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages)。
-* 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html)和[打包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html)准则。
+* 第三方软件包应该作为项目的一部分，使用 Cloud Manager [部署流程](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process)部署到 AEM。
+* 请查看如何在项目中为 AEM as a Cloud Service [嵌入第三方软件包](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages)。
+* 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[打包](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)准则。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)项目，了解如何更正 [INST 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其与 AEM as a Cloud Service 兼容。
 * 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

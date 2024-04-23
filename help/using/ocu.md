@@ -2,10 +2,10 @@
 title: OCU
 description: Pattern Detector代码帮助页面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 93%
+source-wordcount: '275'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_guidance"
 >title="实施指南"
->abstract="最佳实践是审查并调整客户的代码，使用 AEM 组件或 API 的最新版本。请联系 Adobe 支持部门获取帮助或说明。"
+>abstract="最佳实践是审查并调整客户的代码，使用 AEM 组件或 API 的最新版本。请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

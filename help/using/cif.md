@@ -2,10 +2,10 @@
 title: CIF
 description: Pattern Detector代码帮助页面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 98%
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,10 @@ Commerce Integration Framework 经典版
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework 经典版"
->abstract="CIF 标识使用的 Commerce Integration Framework 经典版本与 AEM as a Cloud Service 不兼容。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/introduction.html" text=" Content and Commerce"
+>abstract="CIF标识使用的Commerce integration framework的classic版本与AEMas a Cloud Service不兼容。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-`CIF`CIF 标识使用的 Commerce Integration Framework 经典版本与 AEM as a Cloud Service 不兼容。每个 `CIF` 发现的消息将标识使用情况并提供额外的信息。
+CIF CIF标识与AEMas a Cloud Service不兼容的Commerce integration framework使用经典版本。 每个页面的消息 `CIF` 发现结果可标识使用情况并提供额外的信息。
 
 子类型用于标识信息的不同类型：
 
@@ -34,7 +34,7 @@ Commerce Integration Framework 经典版
 >id="aemcloud_bpa_cif_guidance"
 >title="实施指南"
 >abstract="最佳实践是审查使用的所有 Commerce Integration Framework 经典版本。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/changes.html" text="对 CIF 的显著更改"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="对 CIF 的显著更改"
 
 * AEM as a Cloud Service 上不再支持 Commerce Integration Framework 的经典版本。它会阻止升级到 AEM as a Cloud Service。
 
@@ -43,10 +43,10 @@ Commerce Integration Framework 经典版
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"
 >title="工具和资源"
->abstract="本指南帮助确定您需要为 Experience Manager Cloud Service 迁移而更新的领域。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/migration.html" text="CIF 迁移指南"
+>abstract="本指南帮助确定您必须为Experience Manager Cloud Service迁移更新的区域。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF 迁移指南"
 
-* 对于 Experience Manager as a Cloud Service，CIF 加载项是 Adobe Commerce 和第三方 Commerce 唯一支持的 Commerce 集成解决方案。CIF 加载项自动为 Experience Manager as a Cloud Service 上的客户部署，无需手动部署。请参阅 [AEM Commerce as a Cloud Service 快速入门](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html)。
-* 为支持部署 CIF 的项目，Adobe 提供了 [AEM CIF 核心组件](https://github.com/adobe/aem-core-cif-components)。
-* CIF 加载项可用于 AEM 6.5 以及通过[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)使用。它是兼容的，提供了与 Experience Manager as a Cloud Service 的 CIF 加载项相同的功能，无需调整。
-* Classic CIF 及其依赖项不再可用。对于代码，如果依赖于使用 com.adobe.cq.commerce.api Java API 的此 CIF 版本，则必须根据 CIF 加载项及其准则进行调整。
+* 对于Experience Manageras a Cloud Service，CIF加载项是唯一受Adobe Commerce和第三方商务解决方案支持的商务集成解决方案。 CIF 加载项自动为 Experience Manager as a Cloud Service 上的客户部署，无需手动部署。请参阅 [AEM Commerce as a Cloud Service 快速入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started)。
+* 为了支持部署CIF的项目，Adobe提供了 [AEM CIF核心组件](https://github.com/adobe/aem-core-cif-components).
+* CIF加载项可用于AEM 6.5，方式为 [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). 它是兼容的，提供了与 Experience Manager as a Cloud Service 的 CIF 加载项相同的功能，无需调整。
+* Classic CIF 及其依赖项不再可用。对于代码，如果依赖于使用com.adobe.cq.commerce.api Java™ API的此CIF版本，则必须根据CIF加载项及其原理进行调整。

@@ -2,10 +2,10 @@
 title: OAUI
 description: 模式检测器代码帮助页面……
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 47%
+source-wordcount: '229'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ OAUI标识的模式是，至少一个与OAuth相关的已配置用户需要正�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="实施指南"
->abstract="在重新配置为与AEMas a Cloud Service兼容之前，使用OAuth配置的外部用户无法登录author/publish实例。 AEMas a Cloud Service仅为作者、管理员和开发用户提供IMS身份验证支持，为发布环境提供基于SAML的集成。 请联系 Adobe 支持部门获取帮助及说明"
+>abstract="在重新配置为与AEMas a Cloud Service兼容之前，使用OAuth配置的外部用户无法登录author/publish实例。 AEMas a Cloud Service仅为作者、管理员和开发用户提供IMS身份验证支持，为发布环境提供基于SAML的集成。 请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 支持 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 集成 - 发布"
 

@@ -2,10 +2,10 @@
 title: URS
 description: Pattern Detector代码帮助页面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 55%
 
 ---
 
@@ -17,17 +17,18 @@ ht-degree: 87%
 >id="aemcloud_bpa_urs_overview"
 >title="不支持的存储库结构"
 >abstract="URS 标识不支持的存储库结构和节点特征等情况。这会公开信息，以避免 AEM 产品代码与客户代码之间的冲突、将内容从 /etc 重构到存储库中的其他文件夹等等。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="存储库重构"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存储库重构"
 
 ## 背景 {#background}
 
-`URS` 标识不支持的存储库结构和节点特征等情况。从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突、将内容从 `/etc` 重构到存储库中的其他文件夹，遵守以下高级规则：
+URS 标识不支持的存储库结构和节点特征等情况。从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突、将内容从 `/etc` 重构到存储库中的其他文件夹，遵守以下高级规则：
 
-* AEM 产品代码始终放在 `/libs` 中，这必须使用自定义代码覆盖。
-* 自定义代码应放在 `/apps`、`/content` 和 `/conf` 中。
+* AEM产品代码始终放在 `/libs`，这必须使用自定义代码覆盖。
+* 自定义代码应放在 `/apps`， `/content`、和 `/conf`.
 * 强烈建议遵循 AEM as a Cloud Service 的这些准则。
 
 子类型用于标识应该解决的特定类型的存储库问题：
+
 * `clientlibs.location`：客户端库按路径引用 `/etc`。
 * `file.location`：位于 `/etc` 下自安装以来经过修改的文件。
 * `node.location`：位于 `/etc` 下自安装以来经过修改的节点。
@@ -45,11 +46,11 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="实施指南"
->abstract="最佳实践是审查代码项目并确保它遵守了 AEM 项目结构指南，避免代码依赖于较早的/不支持的存储库路径，这种情况可能会导致 AEM as a Cloud Service 中的意外行为。请联系 Adobe 支持部门获取帮助或说明"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM 项目结构准则"
+>abstract="最佳实践是审查您的代码项目。 请确保它遵守AEM项目结构指南，并避免代码依赖于较早的/不支持的存储库路径，这可能会在AEMas a Cloud Service中导致意外行为。 请联系Adobe支持部门以获取帮助或说明。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 项目结构准则"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 请参阅 [存储库重组](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) 以获取为AEMas a Cloud Service做好准备的指导。
-* 另请参阅 [AEM项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) 了解有关存储库的可变和不可变区域的更多信息。
+* 请参阅 [存储库重组](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) 以获取为AEMas a Cloud Service做好准备的指导。
+* 另请参阅 [AEM项目结构](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 如果您想了解有关存储库的可变和不可变区域的更多信息。
 * 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
-* 利用[存储库现代化器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools)，通过将内容和代码分隔到单独的软件包来重构现有项目软件包，使其与为 Adobe Experience Manager as a Cloud Service 定义的项目结构兼容。
+* 使用 [存储库现代化器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) 通过将内容和代码分隔到单独的软件包来重构现有项目软件包，使其与为Adobe Experience Manager as a Cloud Service定义的项目结构兼容。

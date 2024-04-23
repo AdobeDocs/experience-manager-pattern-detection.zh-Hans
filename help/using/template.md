@@ -1,10 +1,10 @@
 ---
 title: 模板
 description: Pattern Detector代码帮助页面的模板。
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 83%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 ## 背景 {#background}
 
-提供此代码存在的问题的描述。
+提供此代码表示的一个或多个问题的描述。
 回答问题：“这是什么？”
 
 ## 可能的后果和风险 {#implications-and-risks}
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 ## 可采用的解决方案 {#solutions}
 
-提供可以缓解或解决问题的可能步骤的描述。避免提供可以在其他位置找到的重复信息，请尽可能参考 Adobe 文档。
+提供可缓解或解决问题的可能步骤的描述。 避免提供可以在其他位置找到的重复信息 — 请尽可能参考公共Adobe文档。
 回答问题：“我能够做什么？”
 
 * 可采用的解决方案 1

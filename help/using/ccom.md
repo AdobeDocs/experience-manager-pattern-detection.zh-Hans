@@ -2,10 +2,10 @@
 title: CCOM
 description: Pattern Detector代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+source-wordcount: '240'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 >title="自定义组件"
 >abstract="CCOM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估"
 
-`CCOM` 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估。
+CCOM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估。
 
 此代码使用了子类型来标识组件的类别：
 
@@ -31,17 +31,17 @@ ht-degree: 92%
 
 ## 可能的后果和风险 {#implications-and-risks}
 
-* 最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债。
+* 最佳实践为最大限度地减少自定义组件的数量，使用核心组件，并将核心组件与样式系统结合使用，以便您可以减少技术债务。
 
 ## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="实施指南"
->abstract="最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans" text="核心组件"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=zh-Hans#page-authoring" text="样式系统"
+>abstract="最佳实践为最大限度地减少自定义组件的数量，使用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="核心组件"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="样式系统"
 
-* 在[核心组件简介](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans)可找到有关核心组件的更多信息。
-* 在[使用样式系统](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=zh-Hans#page-authoring)中可查找有关样式系统的更多信息。
+* 在[核心组件简介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction)可找到有关核心组件的更多信息。
+* 在[使用样式系统](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)中可查找有关样式系统的更多信息。
 * 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

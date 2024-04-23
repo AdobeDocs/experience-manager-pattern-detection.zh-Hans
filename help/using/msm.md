@@ -2,10 +2,10 @@
 title: MSM
 description: Pattern Detector代码帮助页面。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 56%
+source-wordcount: '146'
+ht-degree: 51%
 
 ---
 
@@ -35,7 +35,7 @@ MSM标识有关AEM多站点管理器功能的一般信息。 提供此信息是�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="实施指南"
->abstract="最佳实践是审查所有自定义 MSM 推出配置和自定义推出操作，确保它们可用于 AEM as a Cloud Service。请联系 Adobe 支持部门获取帮助或说明"
+>abstract="最佳实践是审查所有自定义 MSM 推出配置和自定义推出操作，确保它们可用于 AEM as a Cloud Service。请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

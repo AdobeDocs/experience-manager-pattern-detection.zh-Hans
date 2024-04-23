@@ -2,10 +2,10 @@
 title: UMI
 description: 模式检测器代码帮助页面……
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 43%
+source-wordcount: '352'
+ht-degree: 40%
 
 ---
 
@@ -47,7 +47,7 @@ UMI标识对特定OSGi配置的修改，这些修改在升级时会导致问题�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="实施指南"
->abstract="最佳实践是审查当前配置，恢复对上述配置所做的任何更改，以避免任何未来升级问题。 请联系 Adobe 支持部门获取帮助或说明"
+>abstract="最佳实践是审查当前配置，恢复对上述配置所做的任何更改，以避免任何未来升级问题。 请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 请勿更改或移除以上提及的四个配置。

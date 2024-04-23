@@ -2,10 +2,10 @@
 title: IOI
 description: Pattern Detector代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 92%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="实施指南"
->abstract="客户应该审查其自定义代码，标识此类 API 的使用，并重构它们以便与 AEM as a Cloud Service 兼容。请联系 Adobe 支持部门获取帮助或说明"
+>abstract="客户应该审查其自定义代码，标识此类 API 的使用，并重构它们以便与 AEM as a Cloud Service 兼容。请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用 Sling 资源 API（或 JCR API）而不是低级访问。

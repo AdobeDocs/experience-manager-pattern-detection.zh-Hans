@@ -2,10 +2,10 @@
 title: CAV
 description: Pattern Detector代码帮助页面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Sling请求处理定义资源的内容、其 `sling:resourceType` 属性用于�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="实施指南"
->abstract="由CAS标识的模式，其中存在不同的内容领域违规，应进行审查。 应避免Final和Internal内容分类领域。 请联系 Adobe 支持部门获取帮助或说明。"
+>abstract="由CAS标识的模式，其中存在不同的内容领域违规，应进行审查。 应避免Final和Internal内容分类领域。 请联系Adobe支持部门以获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
