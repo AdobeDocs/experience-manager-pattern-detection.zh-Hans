@@ -2,10 +2,10 @@
 title: CCOM
 description: Pattern Detector代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 69%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="自定义组件"
 >abstract="CCOM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估"
 
-CCOM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估。
+`CCOM` 标识AEM上已安装的自定义组件。 提供此类信息是为了进行最佳实践评估。
 
 此代码使用了子类型来标识组件的类别：
 

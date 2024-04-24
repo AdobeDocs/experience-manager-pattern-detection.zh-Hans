@@ -1,10 +1,10 @@
 ---
 title: OAUI
-description: 模式检测器代码帮助页面……
+description: Pattern Detector代码帮助页面。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ OAuth 用户实例
 >abstract="OAUI 代码标识的模式是，至少一个与 OAuth 相关的已配置用户需要正确的迁移。当名为 oauth 的子节点直接位于 rep:AuthorizableId 节点下且形式为 /home/user-path/user-node/oauth 时，为用户配置 OAuth"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 发行说明"
 
-OAUI标识的模式是，至少一个与OAuth相关的已配置用户需要正确的迁移。
+`OAUI`  标识的模式是，至少一个与OAuth相关的已配置用户需要正确的迁移。
 
 当名为 `oauth` 的子节点直接位于 `rep:AuthorizableId` 节点下且形式为 `/home/user-path/user-node/oauth` 时，为用户配置 OAuth。
 

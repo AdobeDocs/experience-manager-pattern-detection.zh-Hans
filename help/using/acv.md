@@ -2,10 +2,10 @@
 title: ACV
 description: Pattern Detector代码帮助页面。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 70%
+source-wordcount: '478'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="显著更改 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 发行说明"
 
-ACV Assets的内容验证器标识资源内容中缺少的必需节点和违规。 这可能会导致 Experience Manager as a Cloud Service 上特定 Assets 功能的故障。
+`ACV` （资源的内容验证器）标识资源内容中缺少的必需节点和违规。 这可能会导致 Experience Manager as a Cloud Service 上特定 Assets 功能的故障。
 
 子类型用于标识信息的不同类型，例如：
 
@@ -54,5 +54,5 @@ ACV Assets的内容验证器标识资源内容中缺少的必需节点和违规�
 * 对于缺少原始演绎版的资源，请重新上传资源或者在迁移之前删除它们。
 * 缺少子资源原始演绎版无需采取任何操作。
 * 如果有冲突节点，则在迁移到AEMas a Cloud Service之前应先解决或删除这些节点。
-* 如果您计划处理大量大型 PSD 或 PSB 文件，请联系 Adobe 客户支持团队。Experience Manager不能处理大于30000 x 23000像素的高分辨率PSB文件。 请参阅 [文档](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* 如果您计划处理大量大型PSD或PSB文件，请联系Adobe客户支持。 Experience Manager不能处理大于30000 x 23000像素的高分辨率PSB文件。 请参阅 [文档](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * 联系 [Experience Manager客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

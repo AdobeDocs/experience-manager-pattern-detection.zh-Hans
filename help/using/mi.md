@@ -2,10 +2,10 @@
 title: MI
 description: Pattern Detector代码帮助页面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >title="配置不当问题"
 >abstract="MI 可识别 AEM 实例上的配置问题"
 
-MI配置错误问题标识了AEM实例上的配置问题。
+`MI` （配置错误问题）标识AEM实例上的配置问题。
 
 子类型用于识别不同类型的信息，如：
 

@@ -2,9 +2,9 @@
 title: CIF
 description: Pattern Detector代码帮助页面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ Commerce Integration Framework 经典版
 >abstract="CIF标识使用的Commerce integration framework的classic版本与AEMas a Cloud Service不兼容。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-CIF CIF标识与AEMas a Cloud Service不兼容的Commerce integration framework使用经典版本。 每个页面的消息 `CIF` 发现结果可标识使用情况并提供额外的信息。
+`CIF`  标识使用的Commerce integration framework的经典版本与AEMas a Cloud Service不兼容。 每个页面的消息 `CIF` 发现结果可标识使用情况并提供额外的信息。
 
 子类型用于标识信息的不同类型：
 

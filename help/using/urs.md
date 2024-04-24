@@ -2,10 +2,10 @@
 title: URS
 description: Pattern Detector代码帮助页面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 
 ## 背景 {#background}
 
-URS 标识不支持的存储库结构和节点特征等情况。从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突、将内容从 `/etc` 重构到存储库中的其他文件夹，遵守以下高级规则：
+`URS`  标识不支持的存储库结构和节点特征等情况。 从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突、将内容从 `/etc` 重构到存储库中的其他文件夹，遵守以下高级规则：
 
 * AEM产品代码始终放在 `/libs`，这必须使用自定义代码覆盖。
 * 自定义代码应放在 `/apps`， `/content`、和 `/conf`.

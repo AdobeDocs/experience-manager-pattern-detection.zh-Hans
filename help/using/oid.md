@@ -2,10 +2,10 @@
 title: OID
 description: Pattern Detector代码帮助页面。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Oak 索引定义
 >abstract="OID 标识与 Oak 索引定义关联的问题。它定义已经对标准 Oak 索引定义进行的修改。它还标识与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。每个OID发现的消息标识索引并提供额外的信息。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="内容索引准则"
 
-OID 标识与 Oak 索引定义关联的问题。它定义已经对标准 Oak 索引定义进行的修改。它还标识与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。每个页面的消息 `OID` 发现结果可标识索引并提供额外的信息。
+`OID`  标识与Oak索引定义相关的问题。 它定义已经对标准 Oak 索引定义进行的修改。它还标识与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。每个页面的消息 `OID` 发现结果可标识索引并提供额外的信息。
 
 子类型用于标识信息的不同类型：
 

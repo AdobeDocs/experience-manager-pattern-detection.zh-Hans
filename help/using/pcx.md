@@ -2,10 +2,10 @@
 title: PCX
 description: Pattern Detector代码帮助页面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 53%
+source-wordcount: '198'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 53%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 发行说明"
 
-PCX标识其结构中包含许多节点的页面。
+`PCX`  标识其结构中包含许多节点的页面。
 
 子类型用于标识信息的不同类型：
 

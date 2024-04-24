@@ -2,9 +2,9 @@
 title: CTEM
 description: Pattern Detector代码帮助页面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 >title="自定义模板"
 >abstract="CTEM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估"
 
-CTEM标识AEM上已安装的自定义模板。 提供此类信息是为了进行最佳实践评估。
+`CTEM`  标识AEM上已安装的自定义模板。 提供此类信息是为了进行最佳实践评估。
 
 模板由主要类型值标识 `cq:Template`. 此代码使用了子类型来标识模板的类别：
 

@@ -2,10 +2,10 @@
 title: OCU
 description: Pattern Detector代码帮助页面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 91%
+source-wordcount: '277'
+ht-degree: 64%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="过时代码使用"
->abstract="OCU 标识的情况是，以不兼容的方式更改或删除了一些 JCR 节点，例如 Sling 或 AEM 组件或者 API OSGi 导出。客户在升级之前可能未注意到这种更改。它们可能会升级到不兼容版本或者完全不可用。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="显著更改 - AEM as a Cloud Service"
+>abstract="OCU 标识的情况是，以不兼容的方式更改或删除了一些 JCR 节点，例如 Sling 或 AEM 组件或者 API OSGi 导出。客户在升级之前可能未意识到此更改。 它们可能会升级到不兼容版本或者完全不可用。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 
-`OCU` 标识的情况是，以不兼容的方式更改或删除了一些 JCR 节点，例如 Sling 或 AEM 组件或者 API OSGi 导出。客户在升级之前可能未注意到这种更改。它们可能会升级到不兼容版本或者完全不可用。
+`OCU`  标识的情况是，以不兼容的方式更改或删除了一些JCR节点，例如Sling或AEM组件或者API OSGi导出。 客户在升级之前可能未意识到此更改。 它们可能会升级到不兼容版本或者完全不可用。
 
 由于默认情况下未安装旧版本，客户应用程序可能无法正常工作。
 
@@ -39,6 +39,6 @@ ht-degree: 91%
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 短期：安装兼容性包可能会有帮助。
-* 长期：调整客户的代码，使用 AEM 组件或 API 的最新版本。
+* 短期：安装兼容包可能会有帮助。
+* 长期：调整客户代码以使用最新版本的AEM组件或API。
 * 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。

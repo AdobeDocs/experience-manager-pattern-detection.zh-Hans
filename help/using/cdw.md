@@ -2,10 +2,10 @@
 title: CDW
 description: Pattern Detector代码帮助页面。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 87%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >title="自定义对话框构件"
 >abstract="CDW 确定应更新的自定义对话框构件，以使其与 AEM as a Cloud Service 兼容。"
 
-`CDW` 自定义对话框构件可识别自定义的经典对话框构件。应更新这些构件，以使其与 AEM as a Cloud Service 兼容。
+`CDW`  （自定义对话框构件）标识自定义经典对话框构件。 应更新这些构件，以使其与 AEM as a Cloud Service 兼容。
 
 子类型用于标识相关信息，例如：
 

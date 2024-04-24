@@ -2,10 +2,10 @@
 title: INS
 description: Pattern Detector代码帮助页面。
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="命名空间无效"
 >abstract="INS 识别 AEM 实例上的命名空间问题"
 
-`INS`  无效命名空间识别 AEM 实例上的命名空间问题。
+`INS`  （命名空间无效）标识AEM实例上的命名空间问题。
 
 子类型用于识别不同类型的信息，如：
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 无法重复内容（跨层）或复制内容（跨环境 - 通过 `/crx/packMgr` 或内容复制）。
+* 无法复制内容（跨层）或复制内容(跨 `env`，通过 `/crx/packMgr`或内容副本)。
 
 ## 可采用的解决方案 {#solutions}
 

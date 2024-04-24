@@ -2,9 +2,9 @@
 title: WRK
 description: Pattern Detector代码帮助页面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 62%
 >abstract="WRK 代码标识与工作流模型或启动器相关的发现。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。使用 AEM as a Cloud Service，资源处理现在由资源微服务执行。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="资源微服务"
 
-WRK标识与工作流模型或启动器相关的发现。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。
+`WRK`  标识与工作流模型或启动器相关的发现。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。
 
 使用了子类型来标识当前检测到的工作流问题的类型：
 

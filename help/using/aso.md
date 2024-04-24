@@ -2,10 +2,10 @@
 title: ASO
 description: Pattern Detector代码帮助页面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM 系统概述
 >abstract="ASO 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值，为您的迁移规划和重构工作提供帮助。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 发行说明"
 
-ASO标识有关AEM实例的一般信息。 每个发现提供一个特定类型系统信息的值。
+`ASO` 标识有关AEM实例的一般信息。 每个发现提供一个特定类型系统信息的值。
 
 子类型用于标识信息的不同类型：
 

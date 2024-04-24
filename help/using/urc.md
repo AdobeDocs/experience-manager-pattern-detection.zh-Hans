@@ -2,9 +2,9 @@
 title: URC
 description: Pattern Detector代码帮助页面。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 24%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 24%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="支持的运行模式"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="运行架构"
 
-URC标识使用了配置，而这些配置基于AEMas a Cloud Service不支持的运行模式名称。
+`URC`  标识使用了配置，而这些配置基于AEMas a Cloud Service不支持的运行模式名称。
 
 ## 可能的后果和风险 {#implications-and-risks}
 

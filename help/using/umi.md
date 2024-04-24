@@ -1,11 +1,11 @@
 ---
 title: UMI
-description: 模式检测器代码帮助页面……
+description: Pattern Detector代码帮助页面。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 40%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 发行说明"
 
-UMI标识对特定OSGi配置的修改，这些修改在升级时会导致问题，包括升级失败或功能减少。
+`UMI`  标识对特定OSGi配置的修改，这些修改在升级时会导致问题，包括升级失败或者功能减少。
 
 检查以下配置的修改：
 

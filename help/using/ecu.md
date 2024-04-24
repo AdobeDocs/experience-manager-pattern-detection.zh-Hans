@@ -2,10 +2,10 @@
 title: ECU
 description: Pattern Detector代码帮助页面。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 ## 背景 {#background}
 
-ECU识别以违反内容分类规则的方式使用不同内容区域的模式。
+`ECU`  标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。
 
 Sling请求处理定义资源的内容、其 `sling:resourceType` 属性用于确定用于呈现内容的脚本。 （有关更多信息，请参阅[定位脚本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。）Sling 还提供了通过“叠加”和“覆盖”来访问及合并资源的技术。这些内容在 [Sling 资源合并器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[叠加](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)中介绍。
 

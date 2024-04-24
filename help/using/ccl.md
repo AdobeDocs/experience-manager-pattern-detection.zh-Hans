@@ -2,10 +2,10 @@
 title: CCL
 description: Pattern Detector代码帮助页面。
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 83%
+ht-degree: 77%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 83%
 >title="自定义客户端库"
 >abstract="CCL 标识 AEM 上已安装的客户端库。提供此类信息是为了进行最佳实践评估。"
 
-`CCL` 标识 AEM 上已安装的客户端库。提供此类信息是为了进行最佳实践评估。
+`CCL` 标识AEM上已安装的客户端库。 提供此类信息是为了进行最佳实践评估。
 
 此代码使用了一个子类型：
+
 * `custom.client.library`
 
 ## 可能的后果和风险 {#implications-and-risks}
