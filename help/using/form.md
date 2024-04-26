@@ -1,6 +1,6 @@
 ---
 title: FORM
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
@@ -30,9 +30,9 @@ ht-degree: 73%
 * `unsupported.feature`：您的环境使用了一些 Cloud Service 上尚不支持的功能。请勿将此类功能或资源迁移到 Cloud Service 环境。有关功能可用性的信息，请查看每月发行说明。
 * `unsupported.api`：您的环境具有一些 Cloud Service 上尚不支持的 API。在迁移到 Cloud Service 之前，请在代码中禁用、替换或者删除这些 API。有关功能可用性的信息，请查看每月发行说明。
 
-有关进行替换以及使这些功能和 API 与 Cloud Service 兼容所需其他操作的信息，请参阅[可能的后果和风险](#implications-and-risks)和[可采用的解决方案](#solutions)部分
+有关进行替换以及使这些功能和 API 与 Cloud Service 兼容所需其他操作的信息，请参阅[可能产生的后果和风险](#implications-and-risks)和[可采用的解决方案](#solutions)部分
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 请在迁移到 [!DNL Adobe Experience Manager Forms as a Cloud Service] 之前解决以下问题。如果未能解决以下列出的后果和风险，一些功能在 Cloud Service 环境中将无法正常工作。
 
@@ -86,7 +86,7 @@ ht-degree: 73%
 
 * 您可以开发AEM Workflow并编辑要使用的现有自适应表单 [AEM Workflow](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交操作将数据发送到AEM Workflow，而不是使用 **[!UICONTROL 提交到Forms Workflow]** 提交操作。 您可以开发自定义提交操作来将数据、附件或者记录文档 (DoR) 发送到 LiveCycle 流程，而不是使用[!UICONTROL 提交到 Forms Workflow]。(LC_WORKFLOW_SUBMISSION)
 
-* 有关交互式通信功能可用性的信息，请查看每月发行说明。在功能不可用前，请勿将交互式通信、信函和相关字典迁移到 Cloud Service 环境。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* 有关交互式通信功能可用性的信息，请查看每月发行说明。在功能不可用前，请勿将交互式通信、信函和相关词典迁移到 Cloud Service 环境。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 元数据折叠没有替换项。在迁移到 Cloud Service 之前，请将其从表单中删除。(METADATA_ACCORDION_FORM_CONTAINER)
 

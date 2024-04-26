@@ -1,11 +1,11 @@
 ---
 title: CDW
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 * `custom.classic.widget`：识别基于 ExtJ 的自定义对话框构件。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 * 经典 UI 在 AEM as a Cloud Service 中不再可用。用于创作的标准界面是支持触摸的 UI。
 
@@ -39,4 +39,4 @@ ht-degree: 80%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 应将自定义 Classic 对话框构件从 ExtJS 转换为 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html)。
-* 联系 [Experience Manager客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系我们的 [Experience Manager 客户服务团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)进行澄清或解决疑惑。

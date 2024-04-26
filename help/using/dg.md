@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 76%
 >id="aemcloud_bpa_dg_overview"
 >title="开发人员指南"
 >abstract="DG 代码标识 AEM 6.5 和 AEM as a Cloud Service 的所选开发准则的偏差。遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 开发 - 准则和最佳实践"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 开发 - 准则和最佳实践"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
 
 
-`DG`  标识以下项的所选开发准则的偏差 [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。
+`DG`  标识以下项的所选开发准则的偏差 [AEM 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。
 
 子类型用于标识所检测偏差的不同类型，例如：
 
@@ -34,7 +34,7 @@ ht-degree: 76%
 * `javax.jcr.observation.EventListener`：在应用程序代码中使用事件侦听器。
 * `custom.guava.cache`：在应用程序代码中使用 Guava 缓存。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 * `java.io.inputstream`
    * 使用 `java.io.InputStream` 流式传输二进制数据占用的内存资源造成了性能影响。由于在 AEM as a Cloud Service 中使用的容器的可用内存有限，这个问题尤为明显。
@@ -72,7 +72,7 @@ ht-degree: 76%
 
 * `java.io.inputstream`
    * 使用直接二进制上传方法，这种方法直接将二进制数据添加到数据存储。
-   * 有关资源用例，请参阅 [aem-upload](https://github.com/adobe/aem-upload). 对于其他类型的二进制数据，可以在此相同的模式之后对自定义上传逻辑建模。
+   * 请参阅 [aem-upload](https://github.com/adobe/aem-upload)，了解资源用例。对于其他类型的二进制数据，可以在此相同的模式之后对自定义上传逻辑建模。
 
 * `maintenance.task.configuration`
    * 审查 AEM as a Cloud Service [维护任务](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance)文档。
@@ -83,11 +83,11 @@ ht-degree: 76%
    * 应避免长时间运行的作业。
 
 * `unsupported.asset.api`
-   * 不要使用不支持的Asset Manager API，请参阅 [aem-upload](https://github.com/adobe/aem-upload).
+   * 请参阅 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
 
 * `javax.jcr.observation.EventListener`
    * 建议将事件处理机制重构为 [Sling 任务](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，而不是使用事件监听器，因为这些任务可以保证进行处理。
 
 * `custom.guava.cache`
    * 如有必要，应在AEM之外创建缓存。 可以考虑外部缓存解决方案。
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -28,7 +28,7 @@ Commerce Integration Framework 经典版
 * `commerce.integration.framework.detected`：Commerce Integration Framework 的经典版本与 AEM as a Cloud Service 不兼容。
 
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"

@@ -1,11 +1,11 @@
 ---
 title: REP
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 73%
 
 AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) 将内容从作者分发到发布环境。此操作在AEM运行时之外完成，使用Adobe Developer上的Adobe I/O Runtime的管道服务。 这是在预配的AEMas a Cloud Service环境中自动配置的。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 * 复制的配置已随 AEM as a Cloud Service 更改。需要审查所有当前的复制代理，以查看哪些可以使用标准功能取代，哪些配置必须迁移到代码，以及哪些代理不受支持。
 * 升级到 AEM as a Cloud Service 中时，需要审查在自定义代码或工作流中使用的任何复制代理。
@@ -52,4 +52,4 @@ AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.
 * 请参阅 AEM as a Cloud Service [开发准则](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents)和发行说明中的[复制代理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents)。
 * 审查、重构和优化直接依赖于复制代理执行业务任务的功能。
 * 请参阅 AEM as a Cloud Service 中的部署对[复制](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication)有何影响。
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

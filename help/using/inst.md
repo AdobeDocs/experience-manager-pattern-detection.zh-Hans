@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 72%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 >id="aemcloud_bpa_inst_overview"
 >title="已安装构件"
 >abstract="INST 标识已由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些内容是为了帮助描述系统的状态和升级工作的一般范围。任何第三方软件包都必须遵守 AEM as a Cloud Service 开发和打包准则。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="开发准则 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="开发准则 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="打包准则 - AEM as a Cloud Service"
 
 `INST`  标识已由客户安装在AEM中的自定义及第三方软件包和捆绑包。 报告这些内容是为了帮助描述系统的状态和升级工作的一般范围。
@@ -33,7 +33,7 @@ ht-degree: 72%
 * `custom.bundle`：AEM 中安装了捆绑包。
 * `custom.package`：AEM 中安装了软件包。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
@@ -57,6 +57,6 @@ ht-degree: 72%
 
 * 第三方软件包应该作为项目的一部分，使用 Cloud Manager [部署流程](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process)部署到 AEM。
 * 请查看如何在项目中为 AEM as a Cloud Service [嵌入第三方软件包](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages)。
-* 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[打包](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)准则。
+* 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[打包](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)准则。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)项目，了解如何更正 [INST 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其与 AEM as a Cloud Service 兼容。
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

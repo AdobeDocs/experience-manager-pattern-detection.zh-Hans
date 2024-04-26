@@ -1,10 +1,10 @@
 ---
 title: 模板
-description: Pattern Detector代码帮助页面的模板。
+description: Pattern Detector 代码的模板帮助页面。
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 38%
 提供此代码表示的一个或多个问题的描述。
 回答问题：“这是什么？”
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 提供描述，说明不采取任何操作将会引发的潜在后果和风险。
 回答问题：“为什么我应该关注？”
@@ -33,4 +33,4 @@ ht-degree: 38%
 
 * 可采用的解决方案 1
 * 可采用的解决方案 2
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

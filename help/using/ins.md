@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 60%
 
 `INS`  （命名空间无效）标识AEM实例上的命名空间问题。
 
-子类型用于识别不同类型的信息，如：
+子类型用于标识不同类型的信息，例如：
 
 * `uri`：识别 AEM 中无效的命名空间 URI。
 
@@ -39,4 +39,4 @@ ht-degree: 60%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 根据 [JCR 规范](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)修复命名空间定义。请按照[此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)提到的步骤操作
-* 联系 [Experience Manager客户关怀团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系我们的 [Experience Manager 客户服务团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)进行澄清或解决疑惑。

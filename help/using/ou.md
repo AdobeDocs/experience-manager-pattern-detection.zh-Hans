@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 63%
+ht-degree: 70%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 63%
 >id="aemcloud_bpa_ou_overview"
 >title="过时使用"
 >abstract="OU 标识的情况是，以不兼容的方式更改或删除了一些 JCR 节点，例如 Sling 或 AEM 组件或者 API OSGi 导出。客户在升级之前可能未意识到此更改。 它们可能会升级到不兼容版本或者完全不可用。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 
 `OU`  标识的情况是，以不兼容的方式更改或删除了一些JCR节点，例如Sling或AEM组件或者API OSGi导出。 客户在升级之前可能未意识到此更改。 它们可能会升级到不兼容版本或者完全不可用。
 
 由于默认情况下未安装旧版本，客户应用程序可能无法正常工作。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 * 依赖于使用已弃用组件或 API 的任意组件的功能可能会受损，并且在升级后可能无法正确解决。
 * 客户应用程序的某些功能或者某些 AEM 功能在升级之后可能无法正确工作或者不活动。
@@ -41,4 +41,4 @@ ht-degree: 63%
 
 * 短期：安装兼容包可能会有帮助。
 * 长期：调整客户代码以使用最新版本的AEM组件或API。
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

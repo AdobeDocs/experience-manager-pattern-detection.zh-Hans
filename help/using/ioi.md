@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Pattern Detector代码帮助页面。
+description: Pattern Detector 代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 64%
 
 其中一些由 `com.adobe.granite.repository` 使用，在启动期间为 AEM 设置存储库。另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
 
-## 可能的后果和风险 {#implications-and-risks}
+## 可能产生的后果和风险 {#implications-and-risks}
 
 * 在未来的 AEM 版本中，内部导出可能会移除，导致依赖关系中断以及直接依赖于 Oak 的捆绑包不活动。
 * 内部导出中的 API 可能会更改。
@@ -39,4 +39,4 @@ ht-degree: 64%
 
 * 使用 Sling 资源 API（或 JCR API）而不是低级访问。
 * 避免依赖不属于任何公开 API 或 SPI 的内部软件包。
-* 联系 [AEM支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+* 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
