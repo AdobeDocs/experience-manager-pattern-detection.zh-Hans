@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Sling 请求处理定义如何使用资源的内容（特别是其 `sling:resour
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="实施指南"
->abstract="应审查 CAS 标识的在不同内容领域存在违规行为的模式。应避开 Final 和 Internal 内容分类区域。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="应审查 CAS 标识的在不同内容领域存在违规行为的模式。应避开 Final 和 Internal 内容分类区域。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

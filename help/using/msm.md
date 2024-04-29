@@ -5,7 +5,7 @@ exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="实施指南"
->abstract="最佳实践是审查所有自定义 MSM 推出配置和自定义推出操作，确保它们可用于 AEM as a Cloud Service。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="最佳实践是审查所有自定义 MSM 推出配置和自定义推出操作，确保它们可用于 AEM as a Cloud Service。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

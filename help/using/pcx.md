@@ -5,7 +5,7 @@ exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="实施指南"
->abstract="最佳实践是审查内容结构以减少页面复杂性，这反过来又有助于改善页面渲染性能。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="最佳实践是审查内容结构以减少页面复杂性，这反过来又有助于改善页面渲染性能。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 通过执行以下操作来减少页面内的总节点数：

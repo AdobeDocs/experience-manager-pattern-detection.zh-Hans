@@ -5,7 +5,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="实施指南"
->abstract="客户应该审查其自定义代码和软件包，标识是否向 /libs 提供内容，并重构它们来依靠叠加 /apps 下的内容，使其与 AEM as a Cloud Service 兼容。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="客户应该审查其自定义代码和软件包，标识是否向 /libs 提供内容，并重构它们来依靠叠加 /apps 下的内容，使其与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="叠加"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

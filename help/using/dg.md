@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -66,16 +66,16 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="实施指南"
->abstract="审查您对Sling Commons Scheduler用法的实施。 将它们重构为Sling作业，重构其系统维护任务，审查任何二进制数据的流式传输，并重构其代码以符合AEMas a Cloud Service。"
+>abstract="检查您对 Sling Commons Scheduler 的使用情况。将它们重组为 Sling Jobs，重组其系统维护任务，审查任何二进制数据的流式传输，并重构其代码以符合 AEM 云服务的要求。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 作业"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的维护任务"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的维护任务"
 
 * `java.io.inputstream`
    * 使用直接二进制上传方法，这种方法直接将二进制数据添加到数据存储。
    * 请参阅 [aem-upload](https://github.com/adobe/aem-upload)，了解资源用例。对于其他类型的二进制数据，可以在此相同的模式之后对自定义上传逻辑建模。
 
 * `maintenance.task.configuration`
-   * 审查 AEM as a Cloud Service [维护任务](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance)文档。
+   * 审查 AEM as a Cloud Service [维护任务](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/operations/maintenance)文档。
    * 确保[维护任务配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)位于源控件中。
 
 * `sling.commons.scheduler`

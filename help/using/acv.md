@@ -5,7 +5,7 @@ exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV 标识资源内容中缺少的必需节点。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="显著更改 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/assets/overview" text="显著更改 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 发行说明"
 
 `ACV` （资源的内容验证器）标识资源内容中缺少的必需节点和违规。 这可能会导致 Experience Manager as a Cloud Service 上特定 Assets 功能的故障。
@@ -47,7 +47,7 @@ Assets Content Validator
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="实施指南"
->abstract="Adobe建议审查内容结构，以防止依赖继承属性的工作流损坏。 联系客户关怀部门寻求帮助。"
+>abstract="Adobe 建议审查内容结构，防止依赖于继承属性的工作流损坏。联系客户关怀部门寻求帮助。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 分析文件夹是否有缺少的子节点。如果文件夹的数量可以管理，则手动创建节点，否则使用脚本。

@@ -5,7 +5,7 @@ exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="实施指南"
->abstract="应对 CCL 所标识的添加到 AEM 的客户端库进行审查，确保没有重复并且使用了最新版本。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="应对 CCL 所标识的添加到 AEM 的客户端库进行审查，确保没有重复并且使用了最新版本。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

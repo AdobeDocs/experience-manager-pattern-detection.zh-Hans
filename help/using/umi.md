@@ -5,7 +5,7 @@ exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="实施指南"
->abstract="最佳实践是审查当前配置并恢复对所述配置进行的更改，以避免任何以后的升级问题。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="最佳实践是审查当前配置并恢复对所述配置进行的更改，以避免任何以后的升级问题。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 请勿更改或移除以上提及的四个配置。

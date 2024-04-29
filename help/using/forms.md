@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS 代码标识与从 Adobe Experience Manager Forms 迁移到 Adobe Experience Manager Forms as a Cloud Service 相关的潜在问题。审查可能的相关后果和风险，并在迁移到Cloud Service之前解决这些问题。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能产生的后果和风险"
+>abstract="FORMS 代码标识与从 Adobe Experience Manager Forms 迁移到 Adobe Experience Manager Forms as a Cloud Service 相关的潜在问题。在迁移到云服务之前，审查可能的影响和相关风险并解决这些问题。"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能产生的后果和风险"
 
 `FORMS`  标识与从迁移相关的潜在问题 [!DNL Adobe Experience Manager Forms] 到 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 请在迁移到 [!DNL Cloud Service] 之前解决这些问题。
 
@@ -67,7 +67,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="实施指南"
->abstract="通过 FORMS 代码公开的信息可提供指南，说明了进行替换以及使这些功能和 API 与 Cloud Service 兼容所需的其他操作。请联系Adobe支持部门以获取帮助或说明。"
+>abstract="通过 FORMS 代码公开的信息可提供指南，说明了进行替换以及使这些功能和 API 与 Cloud Service 兼容所需的其他操作。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用迁移实用程序将环境上的所有规则脚本转换为可重用的函数。您可以将可重用的函数与 Visual 规则编辑器结合使用，以继续获取通过规则脚本获取的结果。(CODE_EDITOR)

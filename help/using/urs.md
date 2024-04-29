@@ -5,7 +5,7 @@ exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 61%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 61%
 >id="aemcloud_bpa_urs_overview"
 >title="不支持的存储库结构"
 >abstract="URS 标识不支持的存储库结构和节点特征等情况。这会公开信息，以避免 AEM 产品代码与客户代码之间的冲突、将内容从 /etc 重构到存储库中的其他文件夹等等。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存储库重构"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存储库重构"
 
 ## 背景 {#background}
 
@@ -46,11 +46,11 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="实施指南"
->abstract="最佳实践是审查您的代码项目。 请确保它遵守AEM项目结构指南，并避免代码依赖于较早的/不支持的存储库路径，这可能会在AEMas a Cloud Service中导致意外行为。 请联系Adobe支持部门以获取帮助或说明。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 项目结构准则"
+>abstract="最佳做法是检查您的代码项目。最佳做法是审查代码项目并确保它遵守了 AEM 项目结构指南，避免代码依赖于较早的/不支持的存储库路径，这种情况可能会导致 AEM as a Cloud Service 中出现意外行为。联系 Adobe 支持获取帮助或说明。"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 项目结构准则"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 请参阅[存储库重构](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)以获取为 AEM as a Cloud Service 做好准备的指南。
-* 另请参阅 [AEM项目结构](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 如果您想了解有关存储库的可变和不可变区域的更多信息。
+* 请参阅[存储库重构](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)以获取为 AEM as a Cloud Service 做好准备的指南。
+* 另请参阅 [AEM项目结构](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 如果您想了解有关存储库的可变和不可变区域的更多信息。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
 * 使用 [存储库现代化器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) 通过将内容和代码分隔到单独的软件包来重构现有项目软件包，使其与为Adobe Experience Manager as a Cloud Service定义的项目结构兼容。

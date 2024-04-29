@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 57%
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ AEM 系统概述
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="实施指南"
->abstract="通过ASO代码公开的信息可提供您的AEM环境的一般信息，包括版本、产品加载项和系统级别信息。 查看AEMas a Cloud Service中任何不支持的产品或功能。 请联系Adobe支持部门以获取帮助或说明。"
+>abstract="通过 ASO 代码公开的信息可提供 AEM 环境的一般信息，包括版本、产品附加组件和系统级信息。检查 AEM as a Cloud Service 中是否存在不受支持的产品或功能。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 不建议对不支持的产品或功能进行AEM升级，这可能不受支持。
