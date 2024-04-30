@@ -19,8 +19,8 @@ ht-degree: 96%
 >id="aemcloud_bpa_rep_overview"
 >title="复制代理"
 >abstract="REP 标识已启用的复制代理。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。AEM as a Cloud Service 使用 Sling Content Distribution 将内容从作者分发到发布环境。这是在 AEM 运行时之外使用 Adobe Developer 上的 Adobe I/O Runtime 管道服务完成的。这在 AEM as a Cloud Service 环境中自动配置。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="显著更改 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="开发准则"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="显著更改 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="开发准则"
 
 `REP`  标识已启用的复制代理。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。
 
@@ -46,10 +46,10 @@ AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.
 >id="aemcloud_bpa_rep_guidance"
 >title="实施指南"
 >abstract="最佳实践是审查、重构和优化直接依赖于复制代理的自定义功能，使其与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/deploying/overview#replication" text="复制 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication" text="复制 - AEM as a Cloud Service"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 请参阅 AEM as a Cloud Service [开发准则](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents)和发行说明中的[复制代理](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents)。
+* 请参阅 AEM as a Cloud Service [开发准则](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents)和发行说明中的[复制代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents)。
 * 审查、重构和优化直接依赖于复制代理执行业务任务的功能。
-* 请参阅 AEM as a Cloud Service 中的部署对[复制](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/implementing/deploying/overview#replication)有何影响。
+* 请参阅 AEM as a Cloud Service 中的部署对[复制](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication)有何影响。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

@@ -35,7 +35,7 @@ ht-degree: 91%
 >id="aemcloud_bpa_ncc_guidance"
 >title="实施指南"
 >abstract="最佳做法是审核自定义代码并确保只叠加或引用向后兼容的 Sling 组件。联系 Adobe 支持获取帮助或说明。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="叠加"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="叠加"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 仅叠加或引用兼容的 Sling 组件。

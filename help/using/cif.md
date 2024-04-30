@@ -19,7 +19,7 @@ Commerce Integration Framework 经典版
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework 经典版"
 >abstract="CIF 标识了与 AEM as a Cloud Service 不兼容的 Commerce Integration Framework 经典版本用法。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
 `CIF`  标识使用的Commerce integration framework的经典版本与AEMas a Cloud Service不兼容。 每个页面的消息 `CIF` 发现结果可标识使用情况并提供额外的信息。
 
@@ -34,7 +34,7 @@ Commerce Integration Framework 经典版
 >id="aemcloud_bpa_cif_guidance"
 >title="实施指南"
 >abstract="最佳实践是审查使用的所有 Commerce Integration Framework 经典版本。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/content-and-commerce/changes" text="对 CIF 的显著更改"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="对 CIF 的显著更改"
 
 * AEM as a Cloud Service 上不再支持 Commerce Integration Framework 的经典版本。它会阻止升级到 AEM as a Cloud Service。
 
@@ -44,7 +44,7 @@ Commerce Integration Framework 经典版
 >id="aemcloud_bpa_cif_tools"
 >title="工具和资源"
 >abstract="本指南帮助确定您必须为 Experience Manager Cloud Service 迁移而更新的领域。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF 迁移指南"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF 迁移指南"
 
 * 对于Experience Manageras a Cloud Service，CIF加载项是唯一受Adobe Commerce和第三方商务解决方案支持的商务集成解决方案。 CIF 加载项自动为 Experience Manager as a Cloud Service 上的客户部署，无需手动部署。请参阅 [AEM Commerce as a Cloud Service 快速入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started)。
 * 为了支持部署CIF的项目，Adobe提供了 [AEM CIF核心组件](https://github.com/adobe/aem-core-cif-components).

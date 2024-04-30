@@ -19,7 +19,7 @@ ht-degree: 76%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="FORMS 代码标识与从 Adobe Experience Manager Forms 迁移到 Adobe Experience Manager Forms as a Cloud Service 相关的潜在问题。在迁移到云服务之前，审查可能的影响和相关风险并解决这些问题。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能产生的后果和风险"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能产生的后果和风险"
 
 `FORMS`  标识与从迁移相关的潜在问题 [!DNL Adobe Experience Manager Forms] 到 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 请在迁移到 [!DNL Cloud Service] 之前解决这些问题。
 

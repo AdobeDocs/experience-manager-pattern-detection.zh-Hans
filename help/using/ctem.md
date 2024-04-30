@@ -33,7 +33,7 @@ ht-degree: 87%
 >id="aemcloud_bpa_ctem_guidance"
 >title="实施指南"
 >abstract="将所有静态模板迁移到可编辑模板的最佳实践。客户可以利用现有 AEM 现代化工具将静态模板迁移到可编辑模板。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可编辑模板"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可编辑模板"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 现代化工具"
 
 * 将所有静态模板迁移到可编辑模板的最佳实践。
@@ -48,5 +48,5 @@ ht-degree: 87%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用 [AEM现代化工具](https://opensource.adobe.com/aem-modernize-tools/) 将静态模板迁移到可编辑模板。
-* 在[模板](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-65/content/implementing/developing/platform/templates/templates)中可查找有关可编辑模板的更多信息。
+* 在[模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)中可查找有关可编辑模板的更多信息。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

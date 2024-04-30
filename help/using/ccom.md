@@ -40,8 +40,8 @@ ht-degree: 84%
 >title="实施指南"
 >abstract="最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction" text="核心组件"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="样式系统"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="样式系统"
 
 * 在[核心组件简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction)可找到有关核心组件的更多信息。
-* 在[使用样式系统](https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)中可查找有关样式系统的更多信息。
+* 在[使用样式系统](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)中可查找有关样式系统的更多信息。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

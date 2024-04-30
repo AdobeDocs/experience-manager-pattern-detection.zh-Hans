@@ -19,7 +19,7 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV 标识资源内容中缺少的必需节点。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/experience-manager-cloud-service/content/assets/overview" text="显著更改 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/overview" text="显著更改 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 发行说明"
 
 `ACV` （资源的内容验证器）标识资源内容中缺少的必需节点和违规。 这可能会导致 Experience Manager as a Cloud Service 上特定 Assets 功能的故障。
