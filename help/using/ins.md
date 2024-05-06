@@ -5,7 +5,7 @@ exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ins_overview"
 >title="命名空间无效"
->abstract="INS 识别 AEM 实例上的命名空间问题"
+>abstract="INS 标识 AEM 实例上的命名空间问题"
 
-`INS`  （命名空间无效）标识AEM实例上的命名空间问题。
+`INS`  （无效命名空间）标识 AEM 实例上的命名空间问题。
 
 子类型用于标识不同类型的信息，例如：
 
-* `uri`：识别 AEM 中无效的命名空间 URI。
+* `uri`：标识 AEM 中无效的命名空间 URI。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 无法复制内容（跨层）或复制内容(跨 `env`，通过 `/crx/packMgr`或内容副本)。
+* 无法重复内容（跨层）或复制内容（跨 `env`、通过 `/crx/packMgr`，或内容复制）。
 
 ## 可采用的解决方案 {#solutions}
 
