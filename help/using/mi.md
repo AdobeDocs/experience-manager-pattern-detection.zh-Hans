@@ -3,9 +3,9 @@ title: MI
 description: Pattern Detector 代码帮助页面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="配置不当问题"
->abstract="MI 可识别 AEM 实例上的配置问题"
+>abstract="MI 可标识 AEM 实例上的配置问题"
 
-`MI` （配置错误问题）标识AEM实例上的配置问题。
+`MI`（配置不当问题）标识 AEM 实例上的配置问题。
 
 子类型用于标识不同类型的信息，例如：
 
-* `sling.job.max.parallel`：识别最大并行配置被设置为 -1 的 Sling 作业。
-* `missing.maintenance.configuration`：识别缺少的维护任务配置。
+* `sling.job.max.parallel`：标识最大并行配置被设置为 -1 的 Sling 作业。
+* `missing.maintenance.configuration`：标识缺少的维护任务配置。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 

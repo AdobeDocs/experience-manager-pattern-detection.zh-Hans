@@ -3,9 +3,9 @@ title: FORM
 description: Pattern Detector 代码帮助页面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 >abstract="FORMS 代码标识与从 Adobe Experience Manager Forms 迁移到 Adobe Experience Manager Forms as a Cloud Service 相关的潜在问题。在迁移到云服务之前，审查可能的影响和相关风险并解决这些问题。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能产生的后果和风险"
 
-`FORMS`  标识与从迁移相关的潜在问题 [!DNL Adobe Experience Manager Forms] 到 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 请在迁移到 [!DNL Cloud Service] 之前解决这些问题。
+`FORMS`  标识与从 [!DNL Adobe Experience Manager Forms] 迁移到 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service] 相关的潜在问题。请在迁移到 [!DNL Cloud Service] 之前解决这些问题。
 
 以下子类型帮助您标识问题的不同类型：
 
@@ -38,7 +38,7 @@ ht-degree: 76%
 
 * 规则编辑器功能的代码编辑器功能不可用。(CODE_EDITOR)
 
-* 默认情况下禁用电子邮件支持（SMTP端口）。 (EMAIL_SERVICE_CONFIGURATION)
+* 默认情况下禁用了电子邮件支持（SMTP 端口）。(EMAIL_SERVICE_CONFIGURATION)
 
 * **[!UICONTROL 电子邮件 PDF]** 提交操作不可用。(EMAIL_PDF_SUBMIT_ACTION)
 
@@ -52,7 +52,7 @@ ht-degree: 76%
 
 * **[!UICONTROL 提交到 Forms Workflow]** 提交操作不可用。在 AEM 6.5 Forms 和更低版本中，使用提交操作将自适应表单提交到旧版 AEM Forms on JEE Workflow 和 LiveCycle Workflow。(LC_WORKFLOW_SUBMISSION)
 
-* 交互式通信功能不可用。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* 交互式通信功能不可用。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 元数据折叠不可用。(METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -60,7 +60,7 @@ ht-degree: 76%
 
 * [!DNL AEM Forms] 应用程序不可用于 [!DNL Cloud Services]。(AEM_FORMS_APP)
 
-* [文档服务](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) 步骤在AEM Workflow中不可用。 (WORKFLOW_DOCSERVICES)
+* [文档服务](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology)步骤在 AEM Workflow 中不可用。(WORKFLOW_DOCSERVICES)
 
 ## 可采用的解决方案 {#solutions}
 
@@ -72,30 +72,30 @@ ht-degree: 76%
 
 * 使用迁移实用程序将环境上的所有规则脚本转换为可重用的函数。您可以将可重用的函数与 Visual 规则编辑器结合使用，以继续获取通过规则脚本获取的结果。(CODE_EDITOR)
 
-* 请与支持团队联系，以便他们能够为您的环境启用电子邮件（打开SMTP端口）功能。 默认情况下仅启用传出HTTP和HTTPS连接。 (EMAIL_SERVICE_CONFIGURATION, Email step)
+* 联系支持团队，为您的环境启用电子邮件（打开 SMTP 端口）功能。默认情况下仅启用传出 HTTP 和 HTTPS 连接。(EMAIL_SERVICE_CONFIGURATION, Email step)
 
 * 使用&#x200B;**[!UICONTROL 电子邮件]**&#x200B;提交操作而非 **[!UICONTROL 电子邮件 PDF]**。**[!UICONTROL 电子邮件]**&#x200B;提交操作提供了选项，用于发送附件和使用电子邮件附加记录文档 (DoR)。(EMAIL_PDF_SUBMIT_ACTION)
 
-* 提交包含 Adobe Sign 协议 ID 的数据。如有必要，您可以使用Sign Agreement ID检索Sign AgreementPDF。 (FORM_SIGN_INTEGRATION)
+* 提交包含 Adobe Sign 协议 ID 的数据。如果需要，您可以使用 Sign 协议 ID 检索 Sign 协议 PDF。(FORM_SIGN_INTEGRATION)
 
 * 从现有自适应表单中删除签名步骤。配置自适应表单用于[浏览器中签名体验](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。它显示 Adobe Sign 协议，以在自适应表单提交时在浏览器中签名。浏览器中的签名体验有助于提供更快的签名体验，节省签名者的时间。(SIGNATURE_STEP)
 
-* 在将此类表单移至之前，请从现有自适应Forms删除验证步骤 [!DNL Cloud Service] 环境。 (VERIFY_STEP)
+* 先从现有自适应表单中删除验证步骤，然后再将此类表单迁移到 [!DNL Cloud Service] 环境。(VERIFY_STEP)
 
-* 编辑现有自适应表单，以便 [提交到REST端点](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint)， [发送电子邮件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email)， [使用表单数据模型提交](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model)、和 [调用AEM工作流](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交操作。
+* 编辑现有的自适应表单，以使用[提交到 REST 端点](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint)、[发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email)、[使用表单数据模型提交](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model)和[调用 AEM 工作流](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow)提交操作。
 
-* 您可以开发AEM Workflow并编辑要使用的现有自适应表单 [AEM Workflow](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交操作将数据发送到AEM Workflow，而不是使用 **[!UICONTROL 提交到Forms Workflow]** 提交操作。 您可以开发自定义提交操作来将数据、附件或者记录文档 (DoR) 发送到 LiveCycle 流程，而不是使用[!UICONTROL 提交到 Forms Workflow]。(LC_WORKFLOW_SUBMISSION)
+* 您可以开发 AEM Workflow 并编辑现有的自适应表单，以使用 [AEM Workflow](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交操作将数据发送到 AEM Workflow，而不是使用&#x200B;**[!UICONTROL 提交到 Forms Workflow]** 提交操作。您可以开发自定义提交操作来将数据、附件或者记录文档 (DoR) 发送到 LiveCycle 流程，而不是使用[!UICONTROL 提交到 Forms Workflow]。(LC_WORKFLOW_SUBMISSION)
 
 * 有关交互式通信功能可用性的信息，请查看每月发行说明。在功能不可用前，请勿将交互式通信、信函和相关词典迁移到 Cloud Service 环境。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 元数据折叠没有替换项。在迁移到 Cloud Service 之前，请将其从表单中删除。(METADATA_ACCORDION_FORM_CONTAINER)
 
-* 使用Google reCAPTCHA而非Adobe Experience Manager提供的CAPTCHA服务。 (FORMS_CAPTCHA)
+* 使用 Google reCAPTCHA 而非 Adobe Experience Manager 提供的 CAPTCHA 服务。(FORMS_CAPTCHA)
 
-* 请勿迁移使用文档服务工作流步骤的AEM Workflow模型。 此外，对于自适应Forms将用户数据发送到使用文档服务的工作流模型，请勿进行迁移或更新。工作流步骤或更改 `Submit Action` 到 [受支持的一个](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) 迁移表单之前。 (WORKFLOW_DOCSERVICES)
+* 请勿迁移使用文档服务工作流步骤的 AEM Workflow 模型。此外，对于自适应表单，如果将用户数据发送到使用文档服务工作流的工作流模型，请勿进行迁移或更新，或者在迁移表单之前将 `Submit Action` 更改为[支持的操作](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions)。(WORKFLOW_DOCSERVICES)
 
 * 自适应表单提供了响应式设计。这些表单会根据底层设备更改外观、设计和交互性。您可以在移动设备上继续使用自适应表单。有关 [!DNL AEM Forms] 应用程序可用性的信息，请查看每月发行说明。(AEM_FORMS_APP)
 
 * 对基于 XFA 的自适应表单的支持并非现成可用。如果您需要使用基于 XFA 的自适应表单，请联系 Adobe 支持部门并提供您用例的详细信息和具体要求。(XFA_BASED_FORM, XDP_BASED_FORM)
 
-联系人 [Adobe支持](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 以澄清或解决问题。
+请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)进行澄清或解决疑惑。

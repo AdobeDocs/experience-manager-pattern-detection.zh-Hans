@@ -3,9 +3,9 @@ title: IOI
 description: Pattern Detector 代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >title="内部 Oak 导入"
 >abstract="IOI 代码标识客户使用内部 Oak 软件包，通过 OSGi 导入它们。它们在导出时没有特定版本，仅供其他 Oak 捆绑包或低级 AEM 服务使用。"
 
-`IOI`  标识客户使用内部Oak软件包，通过OSGi导入它们。 它们在导出时没有特定版本，仅供其他 Oak 捆绑包或低级 AEM 服务使用。
+`IOI`  标识客户对内部 Oak 软件包的使用，并通过 OSGi 导入它们。它们在导出时没有特定版本，仅供其他 Oak 捆绑包或低级 AEM 服务使用。
 
 其中一些由 `com.adobe.granite.repository` 使用，在启动期间为 AEM 设置存储库。另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
 

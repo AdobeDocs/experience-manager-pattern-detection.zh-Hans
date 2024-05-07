@@ -3,9 +3,9 @@ title: REP
 description: Pattern Detector 代码帮助页面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="开发准则"
 
-`REP`  标识已启用的复制代理。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。
+`REP`  标识已启用的复制代理。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。
 
 子类型用于标识信息的不同类型：
 
@@ -38,7 +38,7 @@ AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.
 * 复制的配置已随 AEM as a Cloud Service 更改。需要审查所有当前的复制代理，以查看哪些可以使用标准功能取代，哪些配置必须迁移到代码，以及哪些代理不受支持。
 * 升级到 AEM as a Cloud Service 中时，需要审查在自定义代码或工作流中使用的任何复制代理。
 * AEM as a Cloud Service 最初不支持反向复制。
-* 无需配置单独的Dispatcher刷新代理。 这在 AEM as a Cloud Service 环境中自动配置。
+* 无需配置单独的 Dispatcher Flush 代理。这在 AEM as a Cloud Service 环境中自动配置。
 
 ## 可采用的解决方案 {#solutions}
 

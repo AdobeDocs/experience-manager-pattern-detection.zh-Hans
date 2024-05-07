@@ -3,9 +3,9 @@ title: DOPI
 description: Pattern Detector 代码帮助页面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="排序索引 - 已弃用"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing" text="索引 - AEM as a Cloud Service"
 
-`DOPI`  标识使用了Ordered Property索引定义(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)，自AEM 6.1起已弃用，在AEM 6.2中已移除。
+`DOPI`  标识使用了 Ordered Property 索引定义 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`)，这已从 AEM 6.1 开始弃用，并且在 AEM 6.2 中已移除。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -45,6 +45,6 @@ ht-degree: 85%
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 违规示例 - GitHub"
 
-* 编辑索引定义，使其成为（或替换为）受支持的索引定义。 （请参阅 [Oak 查询和索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)）。
+* 编辑索引定义以使其成为支持的索引定义，或者用支持的索引定义替换索引。（请参阅 [Oak 查询和索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)）。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi)项目，了解如何更正 [DOPI 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi)，使其与 AEM as a Cloud Service 兼容。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

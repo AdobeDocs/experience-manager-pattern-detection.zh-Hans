@@ -3,9 +3,9 @@ title: DG
 description: Pattern Detector 代码帮助页面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
 
 
-`DG`  标识以下项的所选开发准则的偏差 [AEM 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。
+`DG`  标识 [AEM 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) 的所选开发准则的偏差。遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。
 
 子类型用于标识所检测偏差的不同类型，例如：
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 * `sling.commons.scheduler`
    * 由于在 AEM as a Cloud Service 中无法保证执行，依赖于使用 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 的后台任务的应用程序可能无法正常工作。
-   * 准则 [后台任务和长时间运行的作业](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) 建议作为计划任务运行的代码还必须假定运行它的实例可以随时关闭。 因此，代码必须具有弹性且可恢复。
+   * 适用于[后台任务和长时间运行作业](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的准则建议，作为计划任务运行的代码，也必须假定运行它的实例可以随时关闭。因此，代码必须具有弹性且可恢复。
 
 * `unsupported.asset.api`
    * 以下 AssetManager API 在 AEM as a Cloud Service 中被标记为不受支持。
@@ -66,7 +66,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="实施指南"
->abstract="检查您对 Sling Commons Scheduler 的使用情况。将它们重组为 Sling Jobs，重组其系统维护任务，审查任何二进制数据的流式传输，并重构其代码以符合 AEM 云服务的要求。"
+>abstract="检查您对 Sling Commons Scheduler 的使用情况。将它们重组为 Sling Jobs，重组其系统维护任务，审查任何二进制数据的流式处理，并重构其代码以符合 AEM as a Cloud Service 的要求。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 作业"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的维护任务"
 
@@ -76,11 +76,11 @@ ht-degree: 89%
 
 * `maintenance.task.configuration`
    * 审查 AEM as a Cloud Service [维护任务](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/maintenance)文档。
-   * 确保[维护任务配置](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)位于源控件中。
+   * 确保[维护任务配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)位于源控件中。
 
 * `sling.commons.scheduler`
    * 将使用的 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 替换为 [Sling 作业](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，这具有至少一次执行保证。
-   * 应避免长时间运行的作业。
+   * 应避免长时间运行作业。
 
 * `unsupported.asset.api`
    * 请参阅 [aem-upload](https://github.com/adobe/aem-upload) 代替使用不支持的 Asset Manager API。
@@ -89,5 +89,5 @@ ht-degree: 89%
    * 建议将事件处理机制重构为 [Sling 任务](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，而不是使用事件监听器，因为这些任务可以保证进行处理。
 
 * `custom.guava.cache`
-   * 如有必要，应在AEM之外创建缓存。 可以考虑外部缓存解决方案。
+   * 如果需要，应在 AEM 外部创建缓存。可以考虑外部缓存解决方案。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

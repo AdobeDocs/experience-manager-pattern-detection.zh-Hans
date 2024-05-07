@@ -3,9 +3,9 @@ title: CCOM
 description: Pattern Detector 代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
 >title="自定义组件"
 >abstract="CCOM 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估"
 
-`CCOM` 标识AEM上已安装的自定义组件。 提供此类信息是为了进行最佳实践评估。
+`CCOM` 标识 AEM 上已安装的自定义组件。提供此类信息是为了进行最佳实践评估。
 
 此代码使用了子类型来标识组件的类别：
 
@@ -31,7 +31,7 @@ ht-degree: 84%
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 最佳实践为最大限度地减少自定义组件的数量，使用核心组件，并将核心组件与样式系统结合使用，以便您可以减少技术债务。
+* 最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。
 
 ## 可采用的解决方案 {#solutions}
 

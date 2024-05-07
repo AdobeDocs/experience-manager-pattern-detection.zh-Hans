@@ -3,9 +3,9 @@ title: MSM
 description: Pattern Detector 代码帮助页面。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >abstract="MSM 标识有关 AEM 多站点管理器功能的一般信息。提供此信息是为了帮助描述系统特征。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 
-`MSM`  标识有关AEM多站点管理器功能的一般信息。 提供此信息是为了帮助描述系统特征。
+`MSM`  标识有关 AEM 多站点管理器功能的一般信息。提供此信息是为了帮助描述系统特征。
 
 子类型用于标识信息的不同类型：
 

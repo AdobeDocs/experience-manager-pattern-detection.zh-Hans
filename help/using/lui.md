@@ -3,9 +3,9 @@ title: LUI
 description: Pattern Detector 代码帮助页面。
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >abstract="LUI 标识使用了已弃用的用户界面元素，而更高版本的 AEM 和 AEM as a Cloud Service 中不推荐使用或者不支持这些元素。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 
-`LUI`  标识使用了已弃用的用户界面元素，而更高版本的AEM和AEMas a Cloud Service中不推荐使用或者不支持这些元素。
+`LUI`  标识不推荐使用的用户界面元素，这些元素在 AEM 的更高版本和 AEM as a Cloud Service 中不受建议或不受支持。
 
 子类型用于标识应该或必须升级的不同类型用户界面元素：
 

@@ -3,9 +3,9 @@ title: WRK
 description: Pattern Detector 代码帮助页面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >abstract="WRK 代码标识与工作流模型或启动器相关的发现。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。使用 AEM as a Cloud Service，资源处理现在由资源微服务执行。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="资源微服务"
 
-`WRK`  标识与工作流模型或启动器相关的发现。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。
+`WRK`  标识与工作流模型或启动器相关的发现。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。
 
 使用了子类型来标识当前检测到的工作流问题的类型：
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 
 * 传统上，资源处理由资源工作流在 AEM Author 实例上执行。使用 AEM as a Cloud Service，资源处理现在由资源微服务执行。请参阅[资产微服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)，了解更多信息。
 * 我的资源微服务自动支持标准资源工作流。
-* 对资源工作流的自定义设置需要迁移才能与AEMas a Cloud Service配合使用。
+* 对资源工作流的定制设置需要迁移，以便与 AEM as a Cloud Service 配合使用。
 
 ## 可采用的解决方案 {#solutions}
 

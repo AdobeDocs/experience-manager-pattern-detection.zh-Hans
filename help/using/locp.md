@@ -3,9 +3,9 @@ title: LOCP
 description: Pattern Detector 代码帮助页面。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
 
-`LOCP`  标识检测到向提供内容的自定义软件包 `/libs`，这是一种反模式（除了在ACL的情况下）。
+`LOCP`  标识向 `/libs` 提供内容的自定义软件包的检测，这是一种反模式（除了在 ACL 的情况下）。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 

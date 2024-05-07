@@ -3,9 +3,9 @@ title: NCC
 description: Pattern Detector 代码帮助页面。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="发行说明 - AEM as a Cloud Service"
 
-`NCC`  标识的情况是，以不兼容的方式更改了一些JCR节点或捆绑包。 在升级之前，客户可能没有意识到这一变化。
+`NCC`  标识的情况是，以不兼容的方式更改了一些 JCR 节点或捆绑包。在升级之前，客户可能没有意识到这一变化。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
