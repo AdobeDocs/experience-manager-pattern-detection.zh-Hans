@@ -2,10 +2,10 @@
 title: DM
 description: 了解 Pattern Detector 代码如何标识 AEM Assets - Dynamic Media 的使用情况。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '173'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM 代码标识在您当前实现中 AEM Assets Dynamic Media 的使用。Dynamic Media 模式由运行模式检测。"
+>abstract="DM 代码标识在您当前实现中 AEM Assets Dynamic Media 的使用。运行模式会检测Dynamic Media模式。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM开发 — 准则和最佳实践"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
 
-`DM` （Dynamic Media）标识使用 AEM Assets Dynamic Media 的情况。Dynamic Media 模式由运行模式检测。
+`DM` （Dynamic Media）标识使用 AEM Assets Dynamic Media 的情况。运行模式会检测Dynamic Media模式。
 
 此代码使用了一个子类型：
 

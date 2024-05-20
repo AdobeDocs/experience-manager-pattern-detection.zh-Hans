@@ -2,10 +2,10 @@
 title: WRK
 description: Pattern Detector 代码帮助页面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 56%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="工作流"
->abstract="WRK 代码标识与工作流模型或启动器相关的发现。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。使用 AEM as a Cloud Service，资源处理现在由资源微服务执行。"
+>abstract="WRK 代码标识与工作流模型或启动器相关的发现。报告这些标识，因为升级到AEMas a Cloud Service时必须迁移自定义资源工作流模型。 使用AEMas a Cloud Service，资源微服务执行资源处理。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="资源微服务"
 
-`WRK`  标识与工作流模型或启动器相关的发现。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须迁移自定义资源工作流模型。
+`WRK`  标识与工作流模型或启动器相关的发现。报告这些标识，因为升级到AEMas a Cloud Service时必须迁移自定义资源工作流模型。
 
 使用了子类型来标识当前检测到的工作流问题的类型：
 
@@ -32,10 +32,10 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="实施指南"
->abstract="我的资源微服务自动支持标准资源工作流。因此，最佳做法是检查所有自定义资产工作流模型或启动器，查看在转换到 AEM as a Cloud Service 后是否需要它们。对资源工作流的定制设置需要在资源工作流迁移工具的帮助下迁移，以与 AEM as a Cloud Service 配合使用"
+>abstract="我的资源微服务自动支持标准资源工作流。因此，最佳实践是审查所有自定义资源工作流模型或启动器。 在查看时，您可以查看在迁移到AEMas a Cloud Service后是否需要他们。 对资源工作流的定制设置需要在资源工作流迁移工具的帮助下迁移，以便与AEMas a Cloud Service配合使用"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="开始使用 - 资源微服务"
 
-* 传统上，资源处理由资源工作流在 AEM Author 实例上执行。使用 AEM as a Cloud Service，资源处理现在由资源微服务执行。请参阅[资产微服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)，了解更多信息。
+* 传统上，资源处理由资源工作流在 AEM Author 实例上执行。使用AEMas a Cloud Service，资源微服务执行资源处理。 请参阅[资产微服务概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)，了解更多信息。
 * 我的资源微服务自动支持标准资源工作流。
 * 对资源工作流的定制设置需要迁移，以便与 AEM as a Cloud Service 配合使用。
 

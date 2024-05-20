@@ -2,10 +2,10 @@
 title: DOPI
 description: Pattern Detector 代码帮助页面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 68%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="已弃用 Ordered Property 索引"
->abstract="DOPI 代码标识使用了有序属性索引定义（`primaryType=oak:QueryIndexDefinition` AND type=&quot;ordered&quot;），这已从 6.1 开始弃用，在 6.2 中已移除。"
+>abstract="DOPI代码标识使用了Ordered Property索引定义(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)。 该定义在AEM 6.1中已弃用，在AEM 6.2中已移除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="排序索引 - 已弃用"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing" text="索引 - AEM as a Cloud Service"
 
-`DOPI`  标识使用了 Ordered Property 索引定义 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`)，这已从 AEM 6.1 开始弃用，并且在 AEM 6.2 中已移除。
+`DOPI`  标识使用了Ordered Property索引定义(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)。 这些定义在AEM 6.1中已弃用，在AEM 6.2中已移除。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 DOPI 违规与 AEM Cloud Service 兼容。此外，查看 GitHub 上的 DOPI 违规示例，了解如何使用旧版排序索引转换为 AEM as a Cloud Service 支持的基于 Lucene 的索引。"
+>abstract="审查 WKND 旧版项目，了解如何使 DOPI 违规与 AEM Cloud Service 兼容。此外，查看GitHub上的DOPI违规示例。 它可以帮助您了解如何将旧版排序索引转换为AEMas a Cloud Service支持的基于Lucene的索引。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 违规示例 - GitHub"
 
