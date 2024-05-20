@@ -2,10 +2,10 @@
 title: WRK
 description: Pattern Detector 代码帮助页面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="工具和资源"
->abstract="审查并计划在标识了自定义资源工作流模型或启动器之后，运行资源工作流迁移工具。联系 Adobe 支持获取帮助或说明。"
+>abstract="审查并计划在标识了自定义资源工作流模型或启动器后，运行资源工作流迁移工具。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="资源工作流迁移工具"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

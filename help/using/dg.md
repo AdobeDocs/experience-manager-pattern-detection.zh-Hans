@@ -2,10 +2,10 @@
 title: DG
 description: Pattern Detector 代码帮助页面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_dg_overview"
 >title="开发人员指南"
 >abstract="DG 代码标识 AEM 6.5 和 AEM as a Cloud Service 的所选开发准则的偏差。遵循最佳实践可以改进系统的可维护性和性能。虽然一些偏差在其他应用程序上下文中可能不是问题，包括在以前版本的 AEM 中，但它们在与 AEM as a Cloud Service 一起使用时可能导致问题。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 开发 - 准则和最佳实践"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM开发 — 准则和最佳实践"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
 
 
