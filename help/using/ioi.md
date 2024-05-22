@@ -2,10 +2,10 @@
 title: IOI
 description: Pattern Detector 代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 60%
 
 ---
 
@@ -18,15 +18,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="内部 Oak 导入"
->abstract="IOI 代码标识客户使用内部 Oak 软件包，通过 OSGi 导入它们。它们在导出时没有特定版本，仅供其他 Oak 捆绑包或低级 AEM 服务使用。"
+>abstract="IOI代码标识客户使用内部Oak软件包，通过OSGi导入它们。 导出时不含任何特定版本。 Oak捆绑包或低级AEM服务仅使用它们。"
 
-`IOI`  标识客户对内部 Oak 软件包的使用，并通过 OSGi 导入它们。它们在导出时没有特定版本，仅供其他 Oak 捆绑包或低级 AEM 服务使用。
-
-其中一些由 `com.adobe.granite.repository` 使用，在启动期间为 AEM 设置存储库。另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
+`IOI`  标识客户对内部 Oak 软件包的使用，并通过 OSGi 导入它们。导出时不含任何特定版本。 Oak捆绑包或低级AEM服务仅使用它们。
+这些区域中的一部分由以下人员使用 `com.adobe.granite.repository`，用于在启动期间为AEM设置存储库。 另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 在未来的 AEM 版本中，内部导出可能会移除，导致依赖关系中断以及直接依赖于 Oak 的捆绑包不活动。
+* 在未来的AEM版本中，内部导出可能会删除，导致依赖关系中断和直接依赖于Oak的捆绑包不活动。
 * 内部导出中的 API 可能会更改。
 
 ## 可采用的解决方案 {#solutions}
