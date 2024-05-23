@@ -2,10 +2,10 @@
 title: URS
 description: Pattern Detector 代码帮助页面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 66%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="不支持的存储库结构"
->abstract="URS 标识不支持的存储库结构和节点特征等情况。这会公开信息，以避免 AEM 产品代码与客户代码之间的冲突、将内容从 /etc 重构到存储库中的其他文件夹等等。"
+>abstract="URS标识URS（不支持的存储库结构）和节点特征等情况。 这会公开信息，以避免AEM产品代码与客户代码之间的冲突，并会从重构内容 `/etc` 到存储库中的其他文件夹等。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存储库重构"
 
 ## 背景 {#background}
 
-`URS`  标识不支持的存储库结构和节点特征等情况。从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突、将内容从 `/etc` 重构到存储库中的其他文件夹，遵守以下高级规则：
+`URS`  标识URS（不支持的存储库结构）和节点特征等情况。 从 AEM 6.4 中开始，为存储库内容的重构提供了准则。通过清楚地描述AEM产品代码和客户代码的层次结构并避免它们之间的冲突，内容正在被重组 `/etc` 到存储库中的其他文件夹。 这样做应遵循以下高级规则：
 
-* AEM 产品代码始终放在 `/libs` 中，这必须使用自定义代码覆盖。
+* AEM产品代码始终放在 `/libs` 该自定义代码不得覆盖。
 * 自定义代码应放在 `/apps`、`/content` 和 `/conf` 中。
 * 强烈建议遵循 AEM as a Cloud Service 的这些准则。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="实施指南"
->abstract="最佳做法是检查您的代码项目。最佳做法是审查代码项目并确保它遵守了 AEM 项目结构指南，避免代码依赖于较早的/不支持的存储库路径，这种情况可能会导致 AEM as a Cloud Service 中出现意外行为。联系 Adobe 支持获取帮助或说明。"
+>abstract="最佳做法是检查您的代码项目。请确保它遵守AEM项目结构指南，并避免代码依赖于较旧或不支持的存储库路径，这些路径可能会在AEMas a Cloud Service中导致意外行为。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 项目结构准则"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

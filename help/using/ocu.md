@@ -2,10 +2,10 @@
 title: OCU
 description: Pattern Detector 代码帮助页面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 96%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 100%
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 短期：安装兼容性包可能会有帮助。
+* 短期：安装兼容包可能会有帮助。
 * 长期：调整客户的代码，使用 AEM 组件或 API 的最新版本。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
