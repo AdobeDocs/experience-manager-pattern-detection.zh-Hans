@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs 覆盖自定义软件包"
->abstract="LOCP 标识将内容投放到自定义软件包的检测`/libs`，这是一种反模式（除了有 ACL）。"
+>abstract="LOCP 检测到向 `/libs` 提供内容的自定义软件包，这是一种反模式（有 ACL 的情况除外）。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="实施指南"
->abstract="客户应该检查他们的自定义代码和包裹以确定内容是否已投放 `/libs`。如果有必要，请重构它以依赖于叠加 /应用程序下的内容并使其与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
+>abstract="客户应该检查他们的自定义代码和软件包，确定内容是否已投放至 `/libs`。如有必要，可对其进行重构，使其依赖于覆盖 /apps 下的内容，并使其与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="叠加"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

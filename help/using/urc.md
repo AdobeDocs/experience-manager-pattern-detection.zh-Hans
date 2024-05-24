@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 URC 违规与 AEM Cloud Service 兼容。此外，查看 GitHub 上的 URC 违规示例，了解如何更新基于自定义运行模式的 OSGi 配置以使其遵循 AEM as a Cloud Service。"
+>abstract="审查 WKND 旧版项目，了解如何使 URC 违规与 AEM Cloud Service 兼容。此外，查看 GitHub 上的 URC 违规示例，了解如何更新基于自定义运行模式的 OSGi 配置，以便与 AEM as a Cloud Service 保持一致。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 违规示例 - GitHub"
 

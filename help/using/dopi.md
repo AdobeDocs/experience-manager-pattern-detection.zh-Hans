@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="已弃用 Ordered Property 索引"
->abstract="DOPI 代码标识有序属性索引定义（`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`）的使用。该定义在 AEM 6.1 中已被弃用，并在 AEM 6.2 中被删除。"
+>abstract="DOPI 代码标识有序属性索引定义 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`) 的使用。该定义在 AEM 6.1 中已弃用，并在 AEM 6.2 中删除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="排序索引 - 已弃用"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing" text="索引 - AEM as a Cloud Service"
 

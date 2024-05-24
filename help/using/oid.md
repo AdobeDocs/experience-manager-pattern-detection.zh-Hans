@@ -46,7 +46,7 @@ Oak 索引定义
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何解决项目中的 OID 违规。另外，请查看 GitHub 上的 OID 违规示例。它可以帮助您了解如何使用索引转换器工具转换旧索引并使其与 AEM as a Cloud Service 兼容。"
+>abstract="审查 WKND 旧版项目，了解如何解决项目中的 OID 违规。另外，请查看 GitHub 上的 OID 违规示例。该示例可以帮助您了解如何使用索引转换器工具转换旧索引并使其与 AEM as a Cloud Service 兼容。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID 违规示例 - GitHub"
 
