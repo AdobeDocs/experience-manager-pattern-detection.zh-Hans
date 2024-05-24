@@ -5,7 +5,7 @@ exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM 代码标识在您当前实现中 AEM Assets Dynamic Media 的使用。运行模式会检测Dynamic Media模式。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM开发 — 准则和最佳实践"
+>abstract="DM 代码标识在您当前实现中 AEM Assets Dynamic Media 的使用。运行模式检测 Dynamic Media 模式。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 开发 - 准则和最佳实践"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 开发准则"
 
-`DM` （Dynamic Media）标识使用 AEM Assets Dynamic Media 的情况。运行模式会检测Dynamic Media模式。
+`DM` （Dynamic Media）标识使用 AEM Assets Dynamic Media 的情况。运行模式检测 Dynamic Media 模式。
 
 此代码使用了一个子类型：
 
@@ -40,7 +40,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="实施指南"
->abstract="AEM as a Cloud Service 仅支持 dynamicmedia_scene7 运行模式查看当前设置并联系Adobe支持团队寻求帮助或说明。"
+>abstract="AEM as a Cloud Service 仅支持 dynamicmedia_scene7 运行模式查看当前设置并联系 Adobe 支持团队获取帮助和说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="设置 Dynamic Media"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

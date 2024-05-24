@@ -5,7 +5,7 @@ exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 69%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="自定义客户端库"
->abstract="CCL标识AEM上已安装的客户端库。 提供此类信息是为了进行最佳实践评估。"
+>abstract="CCL 标识已安装在 AEM 上的客户端库。提供此类信息是为了进行最佳实践评估。"
 
 `CCL` 标识AEM上已安装的客户端库。 提供此类信息是为了进行最佳实践评估。
 

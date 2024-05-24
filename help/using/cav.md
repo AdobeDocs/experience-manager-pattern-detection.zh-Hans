@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 74%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="内容领域违规"
->abstract="CAV 代码标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。此违规会向您提供叠加的概览，限制在将其移至AEMas a Cloud Service后可能需要更改的内容。"
+>abstract="CAV 代码标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。此违规会向您提供叠加的概述，限制迁移到 AEM as a Cloud Service 后可能需要更改的内容。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
 
 `CAV` 标识以违反内容分类规则的方式使用不同内容区域的模式。

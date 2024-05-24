@@ -5,7 +5,7 @@ exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="已安装构件"
->abstract="INST标识客户安装在AEM中的自定义及第三方软件包和捆绑包。 报告此类包和捆绑包是为了帮助描述系统状态和升级工作的一般范围。 任何第三方软件包都必须遵守 AEM as a Cloud Service 开发和打包准则。"
+>abstract="INST 标识由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些包和捆绑包有助于描述系统的状态和升级工作的一般范围。任何第三方软件包都必须遵守 AEM as a Cloud Service 开发和打包准则。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="开发准则 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="打包准则 - AEM as a Cloud Service"
 
@@ -51,7 +51,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。此外，查看GitHub上的INST违规示例，了解如何更正此问题并在AEMas a Cloud Service中部署。"
+>abstract="审查 WKND 旧版项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。此外，查看 GitHub 上的 INST 违规示例，了解如何在 AEM as a Cloud Service 中更正和部署这个问题。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 违规示例 - GitHub"
 

@@ -5,7 +5,7 @@ exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="自定义模板"
->abstract="CTEM标识AEM上安装的自定义组件。 提供此类信息是为了进行最佳实践评估"
+>abstract="CTEM 标识在 AEM 上安装的自定义组件。提供此类信息是为了进行最佳实践评估"
 
-`CTEM`  标识AEM上安装的自定义模板。 提供此类信息是为了进行最佳实践评估。
+`CTEM`标识在 AEM 上安装的自定义模板。提供此类信息是为了进行最佳实践评估。
 
-模板的主要类型值为 `cq:Template`，这有助于识别他们。 此代码使用了子类型来标识模板的类别：
+模板的主要类型值为 `cq:Template`，这有助于标识它们。此代码使用了子类型来标识模板的类别：
 
-* `custom.editable.template`：模板的路径开头不是 `/apps`.
-* `custom.static.template`：模板的路径开头为 `/apps`.
+* `custom.editable.template`：模板的路径并非以 `/apps` 开头。
+* `custom.static.template`：模板的路径以 `/apps` 开头。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="实施指南"
->abstract="最佳实践为将所有静态模板变为可编辑模板。 客户可以利用现有 AEM 现代化工具将静态模板迁移到可编辑模板。"
+>abstract="将所有静态模板迁移到可编辑模板的最佳实践。客户可以利用现有 AEM 现代化工具将静态模板迁移到可编辑模板。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可编辑模板"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 现代化工具"
 
-* 最佳实践为将所有静态模板变为可编辑模板。
+* 将所有静态模板迁移到可编辑模板的最佳实践。
 
 ## 可采用的解决方案 {#solutions}
 

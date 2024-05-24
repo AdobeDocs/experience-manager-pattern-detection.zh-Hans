@@ -5,7 +5,7 @@ exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 57%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="复制代理"
->abstract="REP 标识已启用的复制代理。报告这些代理是因为在升级到AEMas a Cloud Service时，可能会出现应解决的问题。 AEM as a Cloud Service 使用 Sling Content Distribution 将内容从作者分发到发布环境。此分发在AEM运行时之外完成，使用Adobe Developer上Adobe I/O Runtime的管道服务。 此工作流在预配的AEMas a Cloud Service环境中自动配置。"
+>abstract="REP 标识已启用的复制代理。报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。AEM as a Cloud Service 使用 Sling Content Distribution 将内容从作者分发到发布环境。此分发是在 AEM 运行时之外使用 Adobe Developer 上的 Adobe I/O Runtime 管道服务完成的。此工作流在 AEM as a Cloud Service 环境中自动配置。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="开发准则"
 
@@ -31,7 +31,7 @@ ht-degree: 57%
 * `standard.replication.agent.modification`：标识启用的标准复制代理，这些代理已经过修改。
 * `custom.replication.agent.detection`：标识启用的自定义复制代理。
 
-AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) 将内容从作者分发到发布环境。此分发在AEM运行时之外完成，使用Adobe Developer上Adobe I/O Runtime的管道服务。 此工作流在预配的AEMas a Cloud Service环境中自动配置。
+AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) 将内容从作者分发到发布环境。此分发是在 AEM 运行时之外使用 Adobe Developer 上的 Adobe I/O Runtime 管道服务完成的。此工作流在 AEM as a Cloud Service 环境中自动配置。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
