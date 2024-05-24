@@ -3,7 +3,7 @@ title: CCOM
 description: Pattern Detector 代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -31,14 +31,14 @@ ht-degree: 100%
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。
+* 最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。
 
 ## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="实施指南"
->abstract="最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
+>abstract="最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction" text="核心组件"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="样式系统"
 

@@ -3,7 +3,7 @@ title: CTEM
 description: Pattern Detector 代码帮助页面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="实施指南"
->abstract="将所有静态模板迁移到可编辑模板的最佳实践。客户可以利用现有 AEM 现代化工具将静态模板迁移到可编辑模板。"
+>abstract="最佳实践是将所有静态模板迁移到可编辑模板。客户可以利用现有 AEM 现代化工具将静态模板迁移到可编辑模板。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可编辑模板"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 现代化工具"
 
-* 将所有静态模板迁移到可编辑模板的最佳实践。
+* 最佳实践是将所有静态模板迁移到可编辑模板。
 
 ## 可采用的解决方案 {#solutions}
 
