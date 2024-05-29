@@ -3,9 +3,9 @@ title: MI
 description: Pattern Detector 代码帮助页面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 85%
 子类型用于标识不同类型的信息，例如：
 
 * `sling.job.max.parallel`：标识最大并行配置被设置为 -1 的 Sling 作业。
-* `missing.maintenance.configuration`：识别缺少的维护任务配置。
+* `missing.maintenance.configuration`：标识缺少的维护任务配置。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * -1 的值被替换为可用的处理器数量。因此，它可能会导致AEM实例出现性能问题。
+   * -1 的值被替换为可用的处理器数量。因此，这可能在 AEM 实例上导致性能问题。
 * `missing.maintenance.configuration`
    * 缺少维护任务配置可能会导致性能损失或实例损坏。
 

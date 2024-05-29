@@ -3,9 +3,9 @@ title: OU
 description: Pattern Detector 代码帮助页面。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 96%
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 短期：安装兼容包可能会有帮助。
+* 短期：安装兼容性包可能会有帮助。
 * 长期：调整客户的代码，使用 AEM 组件或 API 的最新版本。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

@@ -3,9 +3,9 @@ title: DG
 description: Pattern Detector 代码帮助页面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 ## 可能产生的后果和风险 {#implications-and-risks}
 
 * `java.io.inputstream`
-   * 使用 `java.io.InputStream` 流式传输二进制数据占用的内存资源造成了性能影响。此问题是由于AEMas a Cloud Service中使用的容器中的可用内存有限造成的。
+   * 使用 `java.io.InputStream` 流式传输二进制数据占用的内存资源造成了性能影响。这个问题的发生是由于在 AEM as a Cloud Service 中使用的容器的可用内存有限。
 
 * `maintenance.task.configuration`
    * 以前需要明确配置的一些维护任务现在可在 AEM as a Cloud Service 中自动配置和管理。
@@ -48,14 +48,14 @@ ht-degree: 91%
    * 适用于[后台任务和长时间运行作业](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的准则建议，作为计划任务运行的代码，也必须假定运行它的实例可以随时关闭。因此，代码必须具有弹性且可恢复。
 
 * `unsupported.asset.api`
-   * 以下AssetManager API在AEMas a Cloud Service中被标记为不受支持。
+   * 以下 AssetManager API 在 AEM as a Cloud Service 中被标记为不受支持。
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 由于无法保证执行，依赖于事件侦听器的应用程序可能无法按预期工作。
+   * 依赖于事件侦听器的应用程序可能无法按预期工作，因为无法保证执行。
 
 * `custom.guava.cache`
    * 使用 Guava 缓存可能会导致 AEM 中出现性能问题。

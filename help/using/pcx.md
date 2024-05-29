@@ -3,9 +3,9 @@ title: PCX
 description: Pattern Detector 代码帮助页面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="实施指南"
->abstract="最佳实践是审查内容结构以降低页面复杂性。 反过来，这有助于提高页面渲染性能。 联系 Adobe 支持获取帮助或说明。"
+>abstract="最佳实践是审查内容结构以减少页面复杂性。反过来，它可以帮助改善页面渲染性能。联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 通过执行以下操作来减少页面内的总节点数：

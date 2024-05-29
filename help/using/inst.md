@@ -3,9 +3,9 @@ title: INST
 description: Pattern Detector 代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="开发准则 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="打包准则 - AEM as a Cloud Service"
 
-`INST`  标识客户在AEM中安装的自定义及第三方软件包和捆绑包。 报告此类包和捆绑包是为了帮助描述系统状态和升级工作的一般范围。
+`INST` 标识由客户安装在 AEM 中的自定义及第三方软件包和捆绑包。报告这些包和捆绑包有助于描述系统的状态和升级工作的一般范围。
 
 在安装了某个软件包的多个版本时，只报告最新的版本。
 

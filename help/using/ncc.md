@@ -3,9 +3,9 @@ title: NCC
 description: Pattern Detector 代码帮助页面。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="不兼容更改"
->abstract="NCC标识的情况是，以不兼容的方式更改了一些JCR节点或捆绑包。 在升级之前，客户可能没有意识到这一变化。"
+>abstract="NCC 标识某些 JCR 节点或捆绑包以不兼容的方式更改的情况。在升级之前，客户可能没有意识到这一变化。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="发行说明 - AEM as a Cloud Service"
 
-`NCC`  标识的情况是，以不兼容的方式更改了一些JCR节点或捆绑包。 在升级之前，客户可能没有意识到这一变化。
+`NCC` 标识某些 JCR 节点或捆绑包以不兼容的方式更改的情况。在升级之前，客户可能没有意识到这一变化。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -39,5 +39,5 @@ ht-degree: 76%
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 仅叠加或引用兼容的 Sling 组件。
-* 考虑调整来自的资源 `/libs` 或AEM升级后的捆绑包。
+* 考虑在 AEM 升级后调整来自 `/libs` 或捆绑包的资源。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
