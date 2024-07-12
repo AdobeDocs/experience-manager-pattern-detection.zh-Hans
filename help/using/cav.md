@@ -3,7 +3,7 @@ title: CAV
 description: Pattern Detector 代码帮助页面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="内容领域违规"
->abstract="CAV 代码标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。此违规会向您提供叠加的概述，限制迁移到 AEM as a Cloud Service 后可能需要更改的内容。"
+>abstract="CAV 代码标识这样一种模式，不同内容领域的使用方式违反了内容分类规则。这种违规行为会让您大致了解重叠内容、受限内容，这些内容在转移到 AEM as a Cloud Service 后可能需要更改。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
 
 `CAV` 标识以违反内容分类规则的方式使用不同内容区域的模式。
