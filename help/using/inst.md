@@ -2,10 +2,10 @@
 title: INST
 description: Pattern Detector 代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
 * 在正确部署以用于 AEM as a Cloud Service 之前，依赖于第三方软件包的应用程序可能无法正常工作。
 * 第三方供应商软件包如果未针对 AEM as a Cloud Service 进行优化，可能会导致意外的行为。
 
+此外，请考虑注意以下特定子类型：
+
+* `guava.bundle` - AEM 6.5 LTS不支持开箱即用的Guava，并且包在升级后将无法使用。
+
 ## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ ht-degree: 100%
 * 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[打包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)准则。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)项目，了解如何更正 [INST 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其与 AEM as a Cloud Service 兼容。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
+* 对于`guava.bundle`子类型，请安装Guava，如果自定义代码中使用了Guava，请删除用法。
