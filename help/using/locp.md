@@ -4,7 +4,7 @@ description: Pattern Detector 代码帮助页面。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="实施指南"
->abstract="客户应该检查他们的自定义代码和软件包，确定内容是否已投放至 `/libs`。如有必要，可对其进行重构，使其依赖于覆盖 /apps 下的内容，并使其与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
+>abstract="客户应该检查他们的自定义代码和软件包，确定内容是否已投放至 `/libs`。 如有必要，可对其进行重构，使其依赖于覆盖 /apps 下的内容，并使其与 AEM as a Cloud Service 兼容。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="叠加"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 

@@ -4,7 +4,7 @@ description: Pattern Detector 代码帮助页面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="内部 Oak 导入"
->abstract="IOI 代码标识客户使用内部 Oak 软件包，通过 OSGi 导入它们。它们在导出时没有特定版本。仅供 Oak 捆绑包或低级 AEM 服务使用。"
+>abstract="IOI 代码标识客户使用内部 Oak 软件包，通过 OSGi 导入它们。 它们在导出时没有特定版本。 仅供 Oak 捆绑包或低级 AEM 服务使用。"
 
-`IOI` 标识客户对内部 Oak 软件包的使用，并通过 OSGi 导入它们。它们在导出时没有特定版本。仅供 Oak 捆绑包或低级 AEM 服务使用。其中一些区域由 `com.adobe.granite.repository` 使用，在启动期间为 AEM 设置存储库。另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
+`IOI` 标识客户对内部 Oak 软件包的使用，并通过 OSGi 导入它们。 它们在导出时没有特定版本。 仅供 Oak 捆绑包或低级 AEM 服务使用。
+其中一些区域由 `com.adobe.granite.repository` 使用，在启动期间为 AEM 设置存储库。 另一个示例是 `com.adobe.granite.maintenance.oak` Adobe 捆绑包，打包并提供 Oak 维护任务。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -32,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="实施指南"
->abstract="客户应该审查其自定义代码，标识此类 API 的使用，并重构它们以便与 AEM as a Cloud Service 兼容。联系 Adobe 支持获取帮助或说明。"
+>abstract="客户应该审查其自定义代码，标识此类 API 的使用，并重构它们以便与 AEM as a Cloud Service 兼容。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 使用 Sling 资源 API（或 JCR API）而不是低级访问。

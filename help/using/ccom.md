@@ -4,7 +4,7 @@ description: Pattern Detector 代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="自定义组件"
->abstract="CCOM 标识在 AEM 上安装的自定义组件。提供此类信息是为了进行最佳实践评估"
+>abstract="CCOM 标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳实践评估"
 
-`CCOM`标识在 AEM 上安装的自定义组件。提供此类信息是为了进行最佳实践评估。
+`CCOM`标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳实践评估。
 
 此代码使用了子类型来标识组件的类别：
 

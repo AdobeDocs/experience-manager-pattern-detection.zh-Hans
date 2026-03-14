@@ -4,7 +4,7 @@ description: Pattern Detector 代码帮助页面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,10 @@ AEM 系统概述
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 系统概述"
->abstract="ASO 代码标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值，为您的迁移规划和重构工作提供帮助。"
+>abstract="ASO 代码标识有关 AEM 实例的一般信息。 每个发现提供一个特定类型系统信息的值，为您的迁移规划和重构工作提供帮助。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 发行说明"
 
-`ASO` 标识有关 AEM 实例的一般信息。每个发现提供一个特定类型系统信息的值。
+`ASO` 标识有关 AEM 实例的一般信息。 每个发现提供一个特定类型系统信息的值。
 
 子类型用于标识信息的不同类型：
 
@@ -57,11 +57,11 @@ AEM 系统概述
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="实施指南"
->abstract="通过 ASO 代码公开的信息可提供 AEM 环境的一般信息，包括版本、产品附加组件和系统级信息。检查 AEM as a Cloud Service 中是否存在不受支持的产品或功能。联系 Adobe 支持获取帮助或说明。"
+>abstract="通过 ASO 代码公开的信息可提供 AEM 环境的一般信息，包括版本、产品附加组件和系统级信息。 检查 AEM as a Cloud Service 中是否存在不受支持的产品或功能。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
-* 必须处理未处理的资产，并且必须将资产的 `dam:assetState` 节点上的 `jcr:content` 属性设置为“已处理”。或者，您应该在迁移到 AEMaaCS 之前从迁移集中删除这些资产。
+* 必须处理未处理的资产，并且必须将资产的 `dam:assetState` 节点上的 `jcr:content` 属性设置为“已处理”。 或者，您应该在迁移到 AEMaaCS 之前从迁移集中删除这些资产。
 * 可使用 Apache Rewrite 替换虚名 URL。
 * 请参阅[文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)，了解解决查询速度缓慢的问题。
 * 如果您想了解 AEM as a Cloud Service 中最新更改的详情，请参阅[发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current)。
