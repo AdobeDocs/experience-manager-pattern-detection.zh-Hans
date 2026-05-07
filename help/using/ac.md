@@ -1,7 +1,8 @@
 ---
 title: AC
 description: Pattern Detector 代码帮助页面。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
+source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
@@ -25,3 +26,4 @@ AC标识使用的Assets捆绑包与AEM 6.5 LTS不兼容
 * `asset.overlays.detected` — 需要删除在Assets评分和目录组件上创建的叠加。
 * `asset.resource.type.detected` — 在您的自定义代码中删除对Assets评级组件resourcetype的任何使用。
 * `asset.paths.detected` — 移动这些路径下的任何客户内容，并在确保这些路径未在AEM中使用后将其删除。
+
