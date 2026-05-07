@@ -1,10 +1,16 @@
 ---
-source-git-commit: b766ec44ce5d52669d0fd782a7c88475c5f740a9
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 0%
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
-# 已存档
+# Adobe Experience Manager模式检测
 
-此存储库已迁移到<https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.zh-Hans>。
+此存储库用于Adobe Experience Manager模式检测。
+
+欢迎您贡献文档内容。 请参阅以下资源：
+
+* [contributing.md](contributing.md)概述如何贡献文档内容。
+* [guidelines.md](guidelines.md)概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md)概述Adobe期望在您参与此文档项目时的行为标准。
