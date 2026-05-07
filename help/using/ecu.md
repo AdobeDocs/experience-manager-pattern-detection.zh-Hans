@@ -4,8 +4,8 @@ description: Pattern Detector 代码帮助页面。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 `ECU`  标识以违反内容分类规则的方式使用不同内容区域的模式。
 
-Sling 请求处理定义如何使用资源的内容（特别是其 `sling:resourceType` 属性），用于确定将用于渲染内容的脚本。（有关更多信息，请参阅[定位脚本](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。）Sling 还提供了通过叠加和覆盖来访问及合并资源的技术。这些技术被描述为 [Sling 资源合并器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[叠加](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/overlays)的一部分。
+Sling 请求处理定义如何使用资源的内容（特别是其 `sling:resourceType` 属性），用于确定将用于渲染内容的脚本。 （有关详细信息，请参阅[查找脚本](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。） Sling 还提供了通过叠加和覆盖来访问及合并资源的技术。 这些技术被描述为 [Sling 资源合并器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[叠加](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/overlays)的一部分。
 
 为了让客户更安全、更轻松地了解`/libs`中哪些区域可以安全使用和叠加，我们使用“混合”属性对`/libs`中的内容进行了分类：
 
@@ -26,7 +26,7 @@ Sling 请求处理定义如何使用资源的内容（特别是其 `sling:resour
 * 最终
 * 内部
 
-每个分类都暗示了有关如何使用、继承或覆盖内容的规则。有关详细说明，请参阅[可持续升级](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)。
+每个分类都暗示了有关如何使用、继承或覆盖内容的规则。 有关详细说明，请参阅[可持续升级](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 

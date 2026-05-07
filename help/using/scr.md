@@ -1,7 +1,8 @@
 ---
 title: SCR
 description: Pattern Detector 代码帮助页面。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 13b14cc2-f70b-45ff-a62d-dee647311d84
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
