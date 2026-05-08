@@ -88,7 +88,7 @@ ht-degree: 96%
 
 * 有关交互式通信功能可用性的信息，请查看每月发行说明。 在功能不可用前，请勿将交互式通信、信函和相关词典迁移到 Cloud Service 环境。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* 元数据折叠没有替换项。 在将其迁移到Cloud Service之前，请将其从表单中删除。(METADATA_ACCORDION_FORM_CONTAINER)
+* 元数据折叠没有替换项。 在迁移到Cloud Service之前将其从表单中删除。(METADATA_ACCORDION_FORM_CONTAINER)
 
 * 使用 Google reCAPTCHA 而非 Adobe Experience Manager 提供的 CAPTCHA 服务。 (FORMS_CAPTCHA)
 
@@ -96,6 +96,6 @@ ht-degree: 96%
 
 * 自适应表单提供了响应式设计。 这些表单会根据底层设备更改外观、设计和交互性。 您可以在移动设备上继续使用自适应表单。 有关 [!DNL AEM Forms] 应用程序可用性的信息，请查看每月发行说明。 (AEM_FORMS_APP)
 
-* 对基于 XFA 的自适应表单的支持并非现成可用。 如果您打算使用基于XFA的自适应Forms，请联系Adobe支持部门，提供您的用例和特定要求的详细信息。(XFA_BASED_FORM、XDP_BASED_FORM)
+* 对基于 XFA 的自适应表单的支持并非现成可用。 如果您打算使用基于XFA的自适应Forms，请联系Adobe支持，并提供您的用例详细信息和特定要求。(XFA_BASED_FORM， XDP_BASED_FORM)
 
 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)进行澄清或解决疑惑。
