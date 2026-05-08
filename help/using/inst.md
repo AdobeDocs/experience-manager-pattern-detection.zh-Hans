@@ -46,9 +46,9 @@ ht-degree: 92%
 * 在正确部署以用于 AEM as a Cloud Service 之前，依赖于第三方软件包的应用程序可能无法正常工作。
 * 第三方供应商软件包如果未针对 AEM as a Cloud Service 进行优化，可能会导致意外的行为。
 
-另外，请考虑注意这些特定的子类型：
+此外，请考虑注意以下特定子类型：
 
-* `guava.bundle` — 在AEM 6.5 LTS上不支持开箱即用Guava，升级后将无法使用该包。
+* `guava.bundle` - AEM 6.5 LTS不支持开箱即用的Guava，并且包在升级后将无法使用。
 
 ## 可采用的解决方案 {#solutions}
 
@@ -64,4 +64,4 @@ ht-degree: 92%
 * 第三方软件包必须遵守 AEM as a Cloud Service [开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[打包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)准则。
 * 审查 [wknd 旧版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)项目，了解如何更正 [INST 违规](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其与 AEM as a Cloud Service 兼容。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
-* 对于`guava.bundle`子类型，请安装Guava或删除您的自定义代码中使用的Guava用法。
+* 对于`guava.bundle`子类型，请安装Guava，如果自定义代码中使用了Guava，请删除用法。

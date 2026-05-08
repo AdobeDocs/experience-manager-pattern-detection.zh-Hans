@@ -4,7 +4,7 @@ description: Pattern Detector 代码帮助页面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 ## 可能产生的后果和风险 {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * -1 的值被替换为可用的处理器数量。因此，这可能在 AEM 实例上导致性能问题。
+   * -1 的值被替换为可用的处理器数量。 因此，这可能在 AEM 实例上导致性能问题。
 * `missing.maintenance.configuration`
    * 缺少维护任务配置可能会导致性能损失或实例损坏。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 * `sling.job.max.parallel`
    * Adobe 建议将该值设置为 0.5，以利用一半的可用处理器。
 * `missing.maintenance.configuration`
-   * Revision Clean Up：参见 [修订清理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。以下是关于配置的重要部分：[修订版清理 - 配置尾部压缩和完全压缩](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。
+   * Revision Clean Up：参见 [修订清理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。 以下是关于配置的重要部分：[修订版清理 - 配置尾部压缩和完全压缩](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。
    * Lucene Binaries Cleanup：请参阅 [操作仪表板 - Lucene 二进制清理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)。
    * Data Store Garbage Collection：请参阅[数据存储垃圾收集](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)。
    * Workflow Purge：请参阅[定期清除工作流实例](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)。

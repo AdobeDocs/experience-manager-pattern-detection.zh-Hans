@@ -33,10 +33,10 @@ ht-degree: 84%
 * `unsupported.asset.api`：在应用程序代码中使用不支持的 Asset Manager API。
 * `javax.jcr.observation.EventListener`：在应用程序代码中使用事件侦听器。
 * `custom.guava.cache`：在应用程序代码中使用 Guava 缓存。
-* `java.api`：某些Java API已从Java 11移除到Java 17。
-* `configuration.admin`：将标记正在访问配置的自定义代码。
-* `guava.api`： AEM 6.5 LTS上不支持开箱即用的Guava。
-* `com.day.cq.dam.scene7.api.model`： `package com.day.cq.dam.scene7.api.model`存在主要版本更改。
+* `java.api`：某些Java API已从Java 11移至Java 17。
+* `configuration.admin`：将标记访问配置的自定义代码。
+* `guava.api`：不支持AEM 6.5 LTS中开箱即用的Guava。
+* `com.day.cq.dam.scene7.api.model`： `package com.day.cq.dam.scene7.api.model`有主要版本更改。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -65,16 +65,16 @@ ht-degree: 84%
    * 使用 Guava 缓存可能会导致 AEM 中出现性能问题。
 
 * `java.api`
-   * 在JRE17上使用AEM 6.5 LTS时，这些已删除的Java API将不可用，并且使用将失败。
+   * 在JRE17上使用AEM 6.5 LTS时，这些已删除的Java API将不可用，并且其使用将失败。
 
 * `configuration.admin`
-   * 您应查看自己的使用情况，以确保没有使用任何不受支持的配置（如社交帐户）。
+   * 您应该查看自己的使用情况，以确保未使用任何不受支持的配置，例如social。
 
 * `guava.api`
-   * 由于AEM 6.5 LTS不支持Guava，因此使用guava的自定义代码将无效。
+   * 由于AEM 6.5 LTS不支持Guava，因此使用Guava的自定义代码将处于非活动状态。
 
 * `com.day.cq.dam.scene7.api.model`
-   * 由于主要版本更改，自定义捆绑包中导入的包`com.day.cq.dam.scene7.api.model`将不会解析。
+   * 由于主要版本更改，无法解析自定义捆绑包中导入的包`com.day.cq.dam.scene7.api.model`。
 
 
 ## 可采用的解决方案 {#solutions}
@@ -109,10 +109,10 @@ ht-degree: 84%
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
 
 * `configuration.admin`
-   * 删除任何不受支持功能（如社交）的配置用法。
+   * 删除任何不受支持的功能（如Social）的配置用法。
 
 * `guava.api`
-   * 如果自定义代码中使用了Guava，请安装Guava或删除用法。
+   * 请安装Guava，如果自定义代码中使用了Guava，请删除用法。
 
 * `com.day.cq.dam.scene7.api.model`
    * 将导入的包`com.day.cq.dam.scene7.api.model`的版本范围更新为&#x200B;**3.0.4**。
