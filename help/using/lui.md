@@ -76,7 +76,7 @@ ht-degree: 89%
    * 基础组件到核心组件
    * 静态模板和列控件到可编辑模板和响应式网格
    * 设计和设计对话框到可编辑模板策略
-* 审查项目的自定义组件库，如果可能，请转换为一组标准化 [ 核心组件 ](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction)，以加快应用程序的开发速度并减少维护成本。
-* 创建具有与旧模板同等功能的内容片段模型，并在将来使用这些模型来创建内容片段。 请参阅 [ 分析内容片段模型 ](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models)，了解更多详细信息。
+* 审查项目的自定义组件库，如果可能，请转换为一组标准化 [&#x200B; 核心组件 &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction)，以加快应用程序的开发速度并减少维护成本。
+* 创建具有与旧模板同等功能的内容片段模型，并在将来使用这些模型来创建内容片段。 请参阅 [&#x200B; 分析内容片段模型 &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models)，了解更多详细信息。
 * `I18n`词典必须通过 CI / CD 管道从 Git 来实现。 [文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。
