@@ -2,13 +2,17 @@
 title: CAV
 description: Pattern Detector 代码帮助页面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # CAV {#cav}
 
 内容领域违规
@@ -44,11 +48,11 @@ Sling 请求处理定义如何使用资源的内容（特别是其 `sling:resour
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="实施指南"
->abstract="应审查 CAS 标识的在不同内容领域存在违规行为的模式。 应避开 Final 和 Internal 内容分类区域。 联系 Adobe 支持获取帮助或说明。"
+>abstract="应审查通过 CAS 识别出的、存在不同内容区域违规的模式。 应避开 Final 和 Internal 内容分类区域。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 尽可能减少内容叠加的使用，仅限那些需要的用例。
-* 特别是，避免叠加限制的内容（Final 和 Internal 分类）。
+* 仅在确有需要时才使用内容叠加，并尽量减少其使用。
+* 特别是，应避免叠加受限内容（Final 和 Internal 分类）。
 * 在升级 AEM 、Service Pack 或安装 Cumulative Fix Pack 后，请考虑采用来自 `/libs` 的更改。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

@@ -2,13 +2,17 @@
 title: ASO
 description: Pattern Detector 代码帮助页面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
-
 ---
-
 # ASO {#aso}
 
 AEM 系统概述
@@ -48,7 +52,7 @@ AEM 系统概述
 * 提供了 AEM 版本、节点计数、组成员资格、节点存储、数据存储实现类型、CQ 标记计数、智能标记计数、核心组件版本、AEM 实例类型和未处理的资源计数用于信息目的。
 * 数量较多的虚名 URL（超过 1000）会延长查询时间，从而增加 Dispatcher 和 Publish 服务器的负载。
 * 自定义应用程序可能依赖于 AEM as a Cloud Service 中不可用的产品或特性。
-* 升级不支持的功能可能会导致升级失败以及应用程序无法使用。
+* 在存在不受支持功能的情况下进行升级，可能会导致升级失败以及应用程序无法正常运行。
 * 大量处于正在运行或过时状态的创作工作流程可能会降低性能。
 * 查询速度慢可能会降低系统的性能。
 
@@ -60,7 +64,7 @@ AEM 系统概述
 >abstract="通过 ASO 代码公开的信息可提供 AEM 环境的一般信息，包括版本、产品附加组件和系统级信息。 检查 AEM as a Cloud Service 中是否存在不受支持的产品或功能。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
-* 建议不要进行不支持的产品或功能的 AEM 升级，可能会不支持此操作。
+* 不建议使用不受支持的产品或功能进行 AEM 升级，而且此类升级可能不受支持。
 * 必须处理未处理的资产，并且必须将资产的 `dam:assetState` 节点上的 `jcr:content` 属性设置为“已处理”。 或者，您应该在迁移到 AEMaaCS 之前从迁移集中删除这些资产。
 * 可使用 Apache Rewrite 替换虚名 URL。
 * 请参阅[文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)，了解解决查询速度缓慢的问题。

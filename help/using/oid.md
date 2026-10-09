@@ -2,13 +2,17 @@
 title: OID
 description: Pattern Detector 代码帮助页面。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
-
 ---
-
 # OID {#oid}
 
 Oak 索引定义
@@ -18,10 +22,10 @@ Oak 索引定义
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
 >title="Oak 索引定义"
->abstract="OID 标识与 Oak 索引定义关联的问题。 它定义已经对标准 Oak 索引定义进行的修改。 它还标识与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。 每个 OID 发现的消息标识索引并提供额外的信息。"
+>abstract="OID 标识与 Oak 索引定义关联的问题。 它标识已对标准 Oak 索引定义进行的修改。 它还标识与 AEM as a Cloud Service 不兼容的自定义 Oak 索引定义。 每条 OID 发现消息都会标识索引并提供额外信息。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="内容索引准则"
 
-`OID`  标识与 Oak 索引定义关联的问题。 它定义已经对标准 Oak 索引定义进行的修改。 它还标识与 AEM as a Cloud Service 兼容的自定义 Oak 索引定义。 每个 `OID` 发现的消息标识索引并提供额外的信息。
+`OID`  标识与 Oak 索引定义关联的问题。 它标识已对标准 Oak 索引定义进行的修改。 它还标识与 AEM as a Cloud Service 不兼容的自定义 Oak 索引定义。 每个 `OID` 发现的消息标识索引并提供额外的信息。
 
 子类型用于标识信息的不同类型：
 

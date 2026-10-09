@@ -2,13 +2,17 @@
 title: INST
 description: Pattern Detector 代码帮助页面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
-
 ---
-
 # INST {#inst}
 
 已安装构件
@@ -55,7 +59,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。 此外，查看 GitHub 上的 INST 违规示例，了解如何在 AEM as a Cloud Service 中更正和部署这个问题。"
+>abstract="审查 WKND-legacy 项目，了解如何使 INST 违规与 AEM Cloud Service 兼容。 此外，查看 GitHub 上的 INST 违规示例，了解如何在 AEM as a Cloud Service 中更正和部署这个问题。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 违规示例 - GitHub"
 

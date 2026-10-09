@@ -2,13 +2,17 @@
 title: URS
 description: Pattern Detector 代码帮助页面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
-
 ---
-
 # URS {#urs}
 
 不支持的存储库结构
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 ## 背景 {#background}
 
-`URS` 标识 URS（不支持的存储库结构）和节点特征等情况。 从 AEM 6.4 中开始，为存储库内容的重构提供了准则。 通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突，可以将内容从 `/etc` 重构到存储库中的其他文件夹。 这样做需要遵守以下高级规则：
+`URS` 标识 URS（不支持的存储库结构）和节点特征等情况。 从 AEM 6.4 开始，已为存储库内容重构提供了准则。 通过清楚地描述 AEM 产品代码和客户代码的层次结构并避免其间的冲突，可以将内容从 `/etc` 重构到存储库中的其他文件夹。 这样做需要遵守以下高级规则：
 
 * AEM 产品代码始终放在 `/libs` 中，自定义代码不得将其覆盖。
 * 自定义代码应放在 `/apps`、`/content` 和 `/conf` 中。
@@ -46,7 +50,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="实施指南"
->abstract="最佳做法是检查您的代码项目。 最佳做法是审查代码项目并确保它遵守了 AEM 项目结构指南，避免代码依赖于较早的或不支持的存储库路径，这种情况可能会导致 AEM as a Cloud Service 中出现意外行为。 联系 Adobe 支持获取帮助或说明。"
+>abstract="最佳做法是检查您的代码项目。 确保它遵循 AEM 项目结构指南，并避免代码依赖于较旧或不受支持的存储库路径，因为这可能会导致 AEM as a Cloud Service 中出现意外行为。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 项目结构准则"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
