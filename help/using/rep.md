@@ -2,13 +2,17 @@
 title: REP
 description: Pattern Detector 代码帮助页面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 复制代理
@@ -18,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="复制代理"
->abstract="REP 标识已启用的复制代理。 报告这些信息是因为在升级到 AEM as a Cloud Service 时，必须解决潜在问题。 AEM as a Cloud Service 使用 Sling Content Distribution 将内容从作者分发到发布环境。 此分发在 AEM 运行时之外使用 Adobe Developer 上的 Adobe I/O Runtime 管道服务完成。 此工作流在 AEM as a Cloud Service 环境中自动配置。"
+>abstract="REP 标识已启用的复制代理。 之所以报告这些代理，是因为在升级到 AEM as a Cloud Service 时，它们可能会引发需要解决的问题。 AEM as a Cloud Service 使用 Sling Content Distribution 将内容从创作环境分发到发布环境。 此分发在 AEM 运行时之外使用 Adobe Developer 上的 Adobe I/O Runtime 管道服务完成。 此工作流在 AEM as a Cloud Service 环境中自动配置。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="开发准则"
 
@@ -35,11 +39,11 @@ AEM as a Cloud Service 使用 [Sling Content Distribution](https://sling.apache.
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 复制的配置已随 AEM as a Cloud Service 更改。 需要审查所有当前的复制代理。 审查可帮助您了解：
-   * 哪些代理可以使用标准功能取代，
-   * 哪些配置必须迁移到代码，
-   * 以及哪些代理不受支持。
-* 升级到 AEM as a Cloud Service 中时，需要审查在自定义代码或工作流中使用的任何复制代理。
+* 在 AEM as a Cloud Service 中，复制的配置已发生变化。 需要审查所有当前的复制代理。 审查可帮助您了解：
+  * 哪些可以使用标准功能取代，
+  * 哪些配置必须迁移到代码，
+  * 以及哪些代理不受支持。
+* 升级到 AEM as a Cloud Service 时，需要审查在自定义代码或工作流中使用的任何复制代理。
 * AEM as a Cloud Service 最初不支持反向复制。
 * 无需配置单独的 Dispatcher Flush 代理。 它会在 AEM as a Cloud Service 环境中自动配置。
 

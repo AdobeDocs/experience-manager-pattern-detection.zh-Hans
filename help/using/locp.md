@@ -2,13 +2,17 @@
 title: LOCP
 description: Pattern Detector 代码帮助页面。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
-
 ---
-
 # LOCP {#locp}
 
 /libs 覆盖自定义软件包
@@ -20,7 +24,7 @@ ht-degree: 100%
 >title="/libs 覆盖自定义软件包"
 >abstract="LOCP 检测到向 `/libs` 提供内容的自定义软件包，这是一种反模式（有 ACL 的情况除外）。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="可持续升级"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源管理器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 资源合并器"
 
 `LOCP`  标识向 `/libs` 提供内容的自定义软件包的检测，这是一种反模式（除了在 ACL 的情况下）。
 

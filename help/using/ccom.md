@@ -2,13 +2,17 @@
 title: CCOM
 description: Pattern Detector 代码帮助页面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
-
 ---
-
 # CCOM {#ccom}
 
 自定义组件
@@ -18,11 +22,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="自定义组件"
->abstract="CCOM 标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳实践评估"
+>abstract="CCOM 标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳做法评估"
 
-`CCOM`标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳实践评估。
+`CCOM`标识在 AEM 上安装的自定义组件。 提供此类信息是为了进行最佳做法评估。
 
-此代码使用了子类型来标识组件的类别：
+此代码与子类型结合使用，以标识组件的类别：
 
 * `custom.core`：组件的超类型链中的一个超类型包含 `core/wcm/components/`，指示它继承自核心组件。
 * `custom.foundation`：组件的超类型链中的一个超类型包含 “`core/wcm/components/`，指示它继承自核心组件。
@@ -31,14 +35,14 @@ ht-degree: 100%
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。
+* 最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。
 
 ## 可采用的解决方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="实施指南"
->abstract="最佳实践是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
+>abstract="最佳做法是尽可能减少自定义组件的数量，利用核心组件，并将核心组件与样式系统结合使用来减少技术债务。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-core-components/using/introduction" text="核心组件"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="样式系统"
 

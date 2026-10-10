@@ -1,13 +1,14 @@
 ---
 title: 模板
-description: Pattern Detector 代码的模板帮助页面。
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+description: Pattern Detector 代码帮助页面的模板。
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -28,7 +29,7 @@ ht-degree: 100%
 
 ## 可采用的解决方案 {#solutions}
 
-提供可以缓解或解决问题的可能步骤的描述。避免提供可以在其他位置找到的重复信息，请尽可能参考 Adobe 文档。
+提供可以缓解或解决问题的可能步骤的描述。 避免提供可以在其他位置找到的重复信息，请尽可能参考 Adobe 公开文档。
 回答问题：“我能够做什么？”
 
 * 可采用的解决方案 1

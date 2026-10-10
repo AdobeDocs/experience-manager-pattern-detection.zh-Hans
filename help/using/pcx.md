@@ -2,13 +2,17 @@
 title: PCX
 description: Pattern Detector 代码帮助页面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 页面复杂性
@@ -38,13 +42,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="实施指南"
->abstract="最佳实践是审查内容结构以减少页面复杂性。 反过来，它可以帮助改善页面渲染性能。 联系 Adobe 支持获取帮助或说明。"
+>abstract="最佳做法是审查内容结构以减少页面复杂性。 反过来，它可以帮助改善页面渲染性能。 联系 Adobe 支持获取帮助或说明。"
 >additional-url="https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支持"
 
 * 通过执行以下操作来减少页面内的总节点数：
-   * 验证没有不必要的容器。
-   * 测试是否可以使用较少的容器实现相同的版面。
-   * 简化页面内容。
-   * 减少节点结构的深度。
-   * 重构包含的任何体验片段以进行简化。
+  * 确认没有不必要的容器。
+  * 测试是否可以使用较少的容器实现相同的版面。
+  * 简化页面内容。
+  * 减少节点结构的深度。
+  * 重构包含的任何体验片段以进行简化。
 * 请联系 [AEM 支持团队](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 进行澄清或解决疑惑。

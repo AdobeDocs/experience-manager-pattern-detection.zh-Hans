@@ -2,13 +2,17 @@
 title: NCC
 description: Pattern Detector 代码帮助页面。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
-
 ---
-
 # NCC {#ncc}
 
 不兼容更改
@@ -18,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="不兼容更改"
->abstract="NCC 标识某些 JCR 节点或捆绑包以不兼容的方式更改的情况。 在升级之前，客户可能没有意识到这一变化。"
+>abstract="NCC 可识别某些 JCR 节点或捆绑包以不兼容方式发生更改的情况。 在升级之前，客户可能没有意识到这一变化。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="显著更改 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="发行说明 - AEM as a Cloud Service"
 
@@ -26,7 +30,7 @@ ht-degree: 100%
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
-* 依赖于使用不兼容更改的任意组件的功能可能会受损，并且可能无法正确解决。
+* 依赖于使用不兼容更改的任意组件的功能可能会受损，并且可能无法被正确解析。
 * 客户应用程序的某些功能或者某些 AEM 功能在升级之后可能无法正确工作。
 
 ## 可采用的解决方案 {#solutions}

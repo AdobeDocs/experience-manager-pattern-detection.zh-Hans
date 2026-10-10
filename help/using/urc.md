@@ -2,13 +2,17 @@
 title: URC
 description: Pattern Detector 代码帮助页面。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
-
 ---
-
 # URC {#urc}
 
 不受支持的运行模式配置
@@ -29,10 +33,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="实施指南"
->abstract="最佳实践是检查您的应用程序中使用的所有运行模式是否都受支持。 并确保它们遵循运行模式解析指南"
+>abstract="最佳做法是检查您的应用程序中使用的所有运行模式是否都受支持。 并确保它们遵循运行模式解析指南"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="运行模式解决方法准则"
 
-* 在 AEM as a Cloud Service 中可以用于运行各种模式的一组名称是有限的。
+* 在 AEM as a Cloud Service 中，可用于运行各种模式的名称集合是有限的。
 * 基于不支持运行模式名称的配置在部署到 AEM as a Cloud Service 时将不起作用。
 
 ## 可采用的解决方案 {#solutions}
@@ -40,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="工具和资源"
->abstract="审查 WKND 旧版项目，了解如何使 URC 违规与 AEM Cloud Service 兼容。 此外，查看 GitHub 上的 URC 违规示例，了解如何更新基于自定义运行模式的 OSGi 配置，以便与 AEM as a Cloud Service 保持一致。"
+>abstract="审查 WKND-legacy 项目，了解如何使 URC 违规与 AEM Cloud Service 兼容。 此外，查看 GitHub 上的 URC 违规示例，了解如何更新基于自定义运行模式的 OSGi 配置，以便与 AEM as a Cloud Service 保持一致。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND 旧版项目"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 违规示例 - GitHub"
 

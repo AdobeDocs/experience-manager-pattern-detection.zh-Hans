@@ -2,27 +2,31 @@
 title: DOPI
 description: Pattern Detector 代码帮助页面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # DOPI {#dopi}
 
-已弃用 Ordered Property 索引
+已弃用有序属性索引
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
->title="已弃用 Ordered Property 索引"
+>title="已弃用有序属性索引"
 >abstract="DOPI 代码标识有序属性索引定义 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`) 的使用。 该定义在 AEM 6.1 中已弃用，并在 AEM 6.2 中删除。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="排序索引 - 已弃用"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/operations/indexing" text="索引 - AEM as a Cloud Service"
 
-`DOPI` 标识有序属性索引定义（`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`）的使用。 该定义在 AEM 6.1 中已弃用，并在 AEM 6.2 中删除。
+`DOPI` 标识有序属性索引定义（`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`）的使用。 这些定义在 AEM 6.1 中已弃用，并在 AEM 6.2 中被删除。
 
 ## 可能产生的后果和风险 {#implications-and-risks}
 
@@ -34,7 +38,7 @@ ht-degree: 100%
 
 * 一些查询可能不响应。
 * 客户功能可能未正确工作。
-* 由于已弃用的索引没有效果，遍历警告甚至是错误，并有显著的性能影响。
+* 由于这些已弃用的索引不起作用，因此会出现遍历警告甚至错误，以及显著的性能损失。
 
 ## 可采用的解决方案 {#solutions}
 
